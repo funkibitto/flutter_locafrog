@@ -1,17 +1,14 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_locafrog/app/core/keep_alive_wrapper.dart';
+import 'package:flutter_locafrog/app/modules/video/views/video_view.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:flutter_locafrog/app/modules/root/controllers/root_controller.dart';
 
 class RootView extends GetView<RootController> {
   final List _pages = [
-    {
-      'widget': TabTestView(key: UniqueKey()),
-      'icon': FontAwesomeIcons.youtube,
-      'text': 'Video'
-    },
+    {'widget': VideoView(), 'icon': FontAwesomeIcons.youtube, 'text': 'Video'},
     {
       'widget': TabTestView(key: UniqueKey()),
       'icon': FontAwesomeIcons.shoppingBag,
@@ -39,11 +36,11 @@ class RootView extends GetView<RootController> {
         ),
         physics: const NeverScrollableScrollPhysics(),
       ),
-      bottomNavigationBar: _getBottomTab(),
+      bottomNavigationBar: _bottomNavigationBar(),
     );
   }
 
-  Widget _getBottomTab() {
+  Widget _bottomNavigationBar() {
     return Container(
       height: 80,
       decoration: const BoxDecoration(color: Colors.black),

@@ -14,7 +14,8 @@ class VideoApiProvider {
       Response response =
           await _http.get('/youtube/v3/search', queryParameters: {
         'part': 'snippet',
-        'maxResults': 10,
+        'q': 'kpop',
+        'maxResults': 30,
         'order': 'viewCount',
         'type': 'video',
         'videoDefinition': 'high',

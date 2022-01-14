@@ -5,17 +5,17 @@
 import 'package:flutter_locafrog/app/data/models/video/video_model.dart';
 
 class VideoListModel {
-  VideoListModel({
-    this.totalResults,
-    this.resultsPerPage,
-    this.nextPagetoken,
-    required this.items,
-  });
-
   int? totalResults;
   int? resultsPerPage;
   String? nextPagetoken;
   List<VideoModel> items;
+
+  VideoListModel({
+    this.totalResults,
+    this.resultsPerPage,
+    this.nextPagetoken,
+    this.items = const <VideoModel>[],
+  });
 
   factory VideoListModel.fromJson(Map<String, dynamic> json) => VideoListModel(
         totalResults: json["pageInfo"]["totalResults"],
@@ -25,4 +25,6 @@ class VideoListModel {
           json["items"].map((data) => VideoModel.fromJson(data)),
         ),
       );
+
+  bool get isItems => items.isNotEmpty;
 }

@@ -1,13 +1,23 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_locafrog/app/modules/auth/services/auth_service.dart';
 import 'package:get/get.dart';
 import 'app/routes/app_pages.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized;
+  runApp(MyApp());
+}
 
-  runApp(
-    GetMaterialApp(
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+    return GetMaterialApp(
       theme: ThemeData(
         primaryColor: Colors.black,
         scaffoldBackgroundColor: Colors.black,
@@ -26,8 +36,8 @@ void main() {
       title: "Application",
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
-    ),
-  );
+    );
+  }
 }
 
 const MaterialColor primaryBlack = MaterialColor(

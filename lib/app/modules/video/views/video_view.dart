@@ -43,23 +43,17 @@ class VideoView extends StatelessWidget {
   Widget _listView() {
     List<VideoModel> _list = controller.videoList.value.items;
 
-    return SingleChildScrollView(
-      controller: controller.scrollController,
-      child: Column(
-        children: List.generate(_list.length, (index) {
-          return GestureDetector(
-            onTap: () => {},
-            child: VideoItemWidget(video: _list[index]),
-          );
-        }),
-      ),
+    return ListView.builder(
+      padding: const EdgeInsets.all(8),
+      itemCount: controller.videoList.value.items.length,
+      itemBuilder: (BuildContext context, int index) {
+        return VideoItemWidget(video: controller.videoList.value.items[index]);
+      },
     );
   }
 
   @override
   Widget build(BuildContext context) {
-    print('===================VideoView*****************');
-
     return Scaffold(
       backgroundColor: context.theme.primaryColor,
       drawerEdgeDragWidth: 20,

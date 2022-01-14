@@ -11,20 +11,19 @@ class VideoController extends GetxController {
   static VideoController get to => Get.find();
 
   // states
-  Rx<VideoListModel> videoList = VideoListModel().obs;
+  Rx<VideoListModel> videoList = VideoListModel(items: []).obs;
   RxBool isLoading = false.obs;
   late VideoRepository _videoRepository;
 
   ScrollController scrollController = ScrollController();
-  
+
   VideoController() {
     _videoRepository = VideoRepository(apiClient: VideoApiProvider());
   }
 
   @override
   void onInit() {
-    getYoutubeVidoes();
-    print('=============VideoController start');
+    getVideoList();
     super.onInit();
   }
 
@@ -38,15 +37,16 @@ class VideoController extends GetxController {
     scrollController.dispose();
   }
 
-  void getYoutubeVidoes() async {
+  void getVideoList() async {
     isLoading(true);
     // await 1.delay();
 
-    final result = await _videoRepository.getVideos("");
-    print("====getYoutubeVidoes $result");
-    if (result != null) {
-      videoList.value = result;
-      // logger.i(list);
+    VideoListModel? result = await _videoRepository.getVideos("");
+    if (result != null && result.isItems) {
+      videoList.update((val) {
+        val?.nextPagetoken = result.nextPagetoken;
+        val?.items.addAll(result.items);
+      });
     }
     isLoading(false);
   }

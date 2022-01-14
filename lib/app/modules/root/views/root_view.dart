@@ -24,10 +24,6 @@ class RootView extends GetView<RootController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('RootView'),
-        centerTitle: true,
-      ),
       body: PageView(
         controller: controller.pageController,
         children: List.generate(

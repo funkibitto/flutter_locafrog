@@ -34,7 +34,6 @@ class VideoApiProvider {
       return null;
     } on Exception catch (e) {
       logger.e(e);
-      Exception(e);
     }
   }
 }

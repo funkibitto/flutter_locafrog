@@ -35,6 +35,7 @@ class VideoModel {
         "id": id.toJson(),
         "snippet": snippet.toJson(),
       };
+
 }
 
 class Id {

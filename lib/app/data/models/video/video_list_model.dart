@@ -14,7 +14,7 @@ class VideoListModel {
     this.totalResults,
     this.resultsPerPage,
     this.nextPagetoken,
-    this.items = const <VideoModel>[],
+    required this.items,
   });
 
   factory VideoListModel.fromJson(Map<String, dynamic> json) => VideoListModel(
@@ -27,4 +27,6 @@ class VideoListModel {
       );
 
   bool get isItems => items.isNotEmpty;
+
+  int get itemsLength => items.length;
 }

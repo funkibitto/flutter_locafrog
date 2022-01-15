@@ -48,7 +48,7 @@ class VideoView extends StatelessWidget {
       itemBuilder: (BuildContext context, int index) {
         if (index < _items.length) {
           return VideoItemWidget(
-              video: controller.videoList.value.items[index]);
+              key: Key(_items[index].id.videoId), video: _items[index]);
         } else {
           controller.getVideoList();
           return const Center(child: CircularProgressIndicator());

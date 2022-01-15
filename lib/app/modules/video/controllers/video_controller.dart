@@ -15,8 +15,6 @@ class VideoController extends GetxController {
   RxBool isLoading = false.obs;
   late VideoRepository _videoRepository;
 
-  ScrollController scrollController = ScrollController();
-
   VideoController() {
     _videoRepository = VideoRepository(apiClient: VideoApiProvider());
   }
@@ -33,15 +31,13 @@ class VideoController extends GetxController {
   }
 
   @override
-  void onClose() {
-    scrollController.dispose();
-  }
+  void onClose() {}
 
   void getVideoList() async {
     isLoading(true);
     // await 1.delay();
 
-    VideoListModel? result = await _videoRepository.getVideos("");
+    VideoListModel? result = await _videoRepository.getVideos(videoList.value.nextPagetoken ?? "");
     if (result != null && result.isItems) {
       videoList.update((val) {
         val?.nextPagetoken = result.nextPagetoken;

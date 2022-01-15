@@ -65,13 +65,18 @@ class VideoItemWidget extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      Text(
-                        video.snippet.channelTitle,
-                        style: TextStyle(
+                      Flexible(
+                        child: Text(
+                          video.snippet.channelTitle,
+                          maxLines: 1,
+                          style: TextStyle(
                             fontSize: 14,
                             color: Colors.white.withOpacity(
                               0.8,
-                            )),
+                            ),
+                            overflow: TextOverflow.fade,
+                          ),
+                        ),
                       ),
                       const Text(" . "),
                       const Text("조횟수 1000"),

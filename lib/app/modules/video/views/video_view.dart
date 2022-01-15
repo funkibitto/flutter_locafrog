@@ -1,4 +1,3 @@
-import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_locafrog/app/data/models/video/video_model.dart';
 import 'package:flutter_locafrog/app/modules/auth/services/auth_service.dart';
@@ -41,13 +40,19 @@ class VideoView extends StatelessWidget {
   }
 
   Widget _listView() {
-    List<VideoModel> _list = controller.videoList.value.items;
+    List<VideoModel> _items = controller.videoList.value.items;
 
     return ListView.builder(
       padding: const EdgeInsets.all(8),
-      itemCount: controller.videoList.value.items.length,
+      itemCount: _items.length + 1,
       itemBuilder: (BuildContext context, int index) {
-        return VideoItemWidget(video: controller.videoList.value.items[index]);
+        if (index < _items.length) {
+          return VideoItemWidget(
+              video: controller.videoList.value.items[index]);
+        } else {
+          controller.getVideoList();
+          return const Center(child: CircularProgressIndicator());
+        }
       },
     );
   }

@@ -1,6 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_locafrog/app/data/models/video/video_model.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:html_character_entities/html_character_entities.dart';
 import 'package:intl/intl.dart';
 
@@ -18,8 +19,9 @@ class VideoItemWidget extends StatelessWidget {
           color: Colors.grey.withOpacity(0.5),
           child: CachedNetworkImage(
             fit: BoxFit.fitWidth,
-            placeholder: (context, url) => const CircularProgressIndicator(),
-            imageUrl: video.snippet.thumbnails.medium.url,
+            placeholder: (context, url) =>
+                const SpinKitFadingCircle(color: Colors.white, size: 50.0),
+            imageUrl: video.snippet.thumbnails.high.url,
             errorWidget: (context, url, error) => const Icon(Icons.error),
           ),
         ),
@@ -34,7 +36,8 @@ class VideoItemWidget extends StatelessWidget {
           children: [
             CachedNetworkImage(
               imageUrl: video.snippet.thumbnails.medium.url,
-              placeholder: (context, url) => const CircularProgressIndicator(),
+              placeholder: (context, url) =>
+                  const SpinKitRipple(color: Colors.white, size: 10.0),
               imageBuilder: (context, imageProvider) =>
                   CircleAvatar(radius: 20, backgroundImage: imageProvider),
               errorWidget: (context, url, error) => const CircleAvatar(

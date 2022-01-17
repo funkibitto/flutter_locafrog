@@ -1,6 +1,6 @@
 import 'package:flutter_locafrog/app/data/models/user/user_model.dart';
-import 'package:flutter_locafrog/app/data/providers/api/user_api_provider.dart';
-import 'package:flutter_locafrog/app/data/repositories/user_repository.dart';
+import 'package:flutter_locafrog/app/data/repositories/user/user_repository.dart';
+import 'package:flutter_locafrog/app/data/repositories/user/user_repository_impl.dart';
 import 'package:get/get.dart';
 
 class SettingController extends GetxController {
@@ -9,7 +9,7 @@ class SettingController extends GetxController {
   late Rxn<UserModel> user = Rxn<UserModel>();
 
   SettingController() {
-    _userRepository = UserRepository(apiClient: UserApiProvider());
+    _userRepository = UserRepositoryImpl();
   }
 
   static SettingController get to => Get.find();

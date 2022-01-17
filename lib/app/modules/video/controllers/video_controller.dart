@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_locafrog/app/data/models/video/video_list_model.dart';
-import 'package:flutter_locafrog/app/data/providers/api/video_api_provider.dart';
-import 'package:flutter_locafrog/app/data/repositories/video_repository.dart';
+import 'package:flutter_locafrog/app/data/repositories/video/video_repository.dart';
+import 'package:flutter_locafrog/app/data/repositories/video/video_repository_impl.dart';
+import 'package:flutter_locafrog/app/data/repositories/video/video_repository_mockup.dart';
 import 'package:get/get.dart';
 import 'package:logger/logger.dart';
 
@@ -13,15 +14,23 @@ class VideoController extends GetxController {
   // states
   Rx<VideoListModel> videoList = VideoListModel(items: []).obs;
   RxBool isLoading = false.obs;
+  RxBool isLast = false.obs;
+
   late VideoRepository _videoRepository;
+  late ScrollController scrollController;
 
   VideoController() {
-    _videoRepository = VideoRepository(apiClient: VideoApiProvider());
+    // _videoRepository = VideoRepositoryImpl();
+
+    // mockup data
+    _videoRepository = VideoRepositoryMockup();
   }
 
   @override
   void onInit() {
+    scrollController = ScrollController();
     getVideoList();
+    _event();
     super.onInit();
   }
 
@@ -31,18 +40,38 @@ class VideoController extends GetxController {
   }
 
   @override
-  void onClose() {}
+  void onClose() {
+    scrollController.dispose();
+  }
+
+  void _event() {
+    // scrollController.addListener(() {
+    //   if (scrollController.position.pixels ==
+    //           scrollController.position.maxScrollExtent &&
+    //       videoList.value.nextPagetoken != null &&
+    //       isLoading.isFalse) {
+    //     _getVideoList();
+    //   }
+    // });
+  }
 
   void getVideoList() async {
     isLoading(true);
-    // await 1.delay();
+    // await 5.delay();
 
-    VideoListModel? result = await _videoRepository.getVideos(videoList.value.nextPagetoken ?? "");
+    // isLast를 구현하기 위한 방법 .. 임시.
+    int _preTotal = videoList.value.itemsLength;
+
+    VideoListModel? result =
+        await _videoRepository.getVideos(videoList.value.nextPagetoken ?? "");
     if (result != null && result.isItems) {
       videoList.update((val) {
         val?.nextPagetoken = result.nextPagetoken;
         val?.items.addAll(result.items);
       });
+      if (_preTotal == videoList.value.itemsLength) {
+        isLast(true);
+      }
     }
     isLoading(false);
   }

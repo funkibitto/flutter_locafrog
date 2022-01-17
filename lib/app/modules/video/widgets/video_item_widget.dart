@@ -102,7 +102,7 @@ class VideoItemWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('video==============${video.id.videoId}');
+    // print('video==============${video.id.videoId}');
     return Column(
       children: [_thumbnail(), _itemInfo()],
     );

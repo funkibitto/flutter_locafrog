@@ -17,7 +17,6 @@ class VideoController extends GetxController {
   RxBool isLast = false.obs;
 
   late VideoRepository _videoRepository;
-  late ScrollController scrollController;
 
   VideoController() {
     // _videoRepository = VideoRepositoryImpl();
@@ -28,9 +27,7 @@ class VideoController extends GetxController {
 
   @override
   void onInit() {
-    scrollController = ScrollController();
     getVideoList();
-    _event();
     super.onInit();
   }
 
@@ -40,24 +37,21 @@ class VideoController extends GetxController {
   }
 
   @override
-  void onClose() {
-    scrollController.dispose();
+  void onClose() {}
+
+  void initVideoList() {
+    videoList.update((val) {
+      val?.nextPagetoken = "";
+      val?.items = [];
+    });
   }
 
-  void _event() {
-    // scrollController.addListener(() {
-    //   if (scrollController.position.pixels ==
-    //           scrollController.position.maxScrollExtent &&
-    //       videoList.value.nextPagetoken != null &&
-    //       isLoading.isFalse) {
-    //     _getVideoList();
-    //   }
-    // });
-  }
-
-  void getVideoList() async {
+  Future<void> getVideoList({bool isReload = false}) async {
+    if (isReload) {
+      initVideoList();
+    }
     isLoading(true);
-    // await 5.delay();
+    await 1.delay();
 
     // isLast를 구현하기 위한 방법 .. 임시.
     int _preTotal = videoList.value.itemsLength;
@@ -69,7 +63,8 @@ class VideoController extends GetxController {
         val?.nextPagetoken = result.nextPagetoken;
         val?.items.addAll(result.items);
       });
-      if (_preTotal == videoList.value.itemsLength) {
+    } else {
+      if (result == null || _preTotal == videoList.value.itemsLength) {
         isLast(true);
       }
     }

@@ -92,8 +92,6 @@ class TabTestView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('===================_TabTestViewState*****************${this.key}');
-
     return Scaffold(
       backgroundColor: Color(Random().nextInt(0xffffffff)),
       body: ListView(
@@ -105,7 +103,7 @@ class TabTestView extends StatelessWidget {
               margin: const EdgeInsets.all(8),
               child: Text(
                 index.toString(),
-                style: TextStyle(fontSize: 40),
+                style: const TextStyle(fontSize: 40),
                 textAlign: TextAlign.center,
               )),
         ),

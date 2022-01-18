@@ -50,7 +50,10 @@ class VideoView extends StatelessWidget {
 
   Widget _body() {
     return RefreshIndicator(
-      onRefresh: () async => await controller.getVideoList(isReload: true),
+      onRefresh: () async => {
+        if (controller.loadingEuum.value != ListLoading.reload)
+          {await controller.getVideoList(isReload: true)}
+      },
       edgeOffset: 100.0,
       child: CustomScrollView(
         physics: const BouncingScrollPhysics(
@@ -98,8 +101,7 @@ class VideoView extends StatelessWidget {
         () => Stack(
           children: <Widget>[
             _body(),
-
-            // init list
+            // init loading
             if (controller.loadingEuum.value == ListLoading.init) ...[
               const Align(
                 alignment: Alignment.center,

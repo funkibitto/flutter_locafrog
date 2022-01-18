@@ -40,9 +40,12 @@ class VideoController extends GetxController {
   @override
   void onClose() {}
 
-  void initVideoList() {
+  Future<void> initVideoList() async {
     // loading reload
     loadingEuum.value = ListLoading.reload;
+
+    //For mockup test
+    await 2.delay();
 
     videoList.update((val) {
       val?.nextPagetoken = "";
@@ -52,9 +55,9 @@ class VideoController extends GetxController {
 
   Future<void> getVideoList({bool isReload = false}) async {
     if (isReload) {
-      initVideoList();
+      await initVideoList();
     }
-    await 2.delay();
+    // await 2.delay();
 
     VideoListModel? result =
         await _videoRepository.getVideos(videoList.value.nextPagetoken ?? "");

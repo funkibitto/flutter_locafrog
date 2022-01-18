@@ -33,6 +33,7 @@ class _VideoItemWidgetState extends State<VideoItemWidget> {
     _video_controller = YoutubePlayerController(
       initialVideoId: widget.video.id.videoId,
       flags: const YoutubePlayerFlags(
+        hideControls: true,
         autoPlay: true,
         mute: true,
       ),
@@ -158,17 +159,21 @@ class _VideoItemWidgetState extends State<VideoItemWidget> {
     return InViewNotifierWidget(
       id: widget.id,
       builder: (BuildContext context, bool isInView, Widget? child) {
-        // if (isInView && !widget.isScrolling) {
-        //   print('isInView ======= $isInView =========  ${widget.id} **** ');
-        // }
-
         return Column(
           children: [
             AnimatedSwitcher(
               duration: const Duration(seconds: 3),
-              child: isInView && !widget.isScrolling
-                  ? _videoPlayer()
-                  : _thumbnail(),
+              child: GestureDetector(
+                behavior: HitTestBehavior.translucent,
+                onTap: () {
+                  print('========ONTAP');
+                },
+                child: Container(
+                  child: isInView && !widget.isScrolling
+                      ? _videoPlayer()
+                      : _thumbnail(),
+                ),
+              ),
             ),
             _itemInfo(),
           ],

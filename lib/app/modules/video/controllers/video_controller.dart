@@ -16,6 +16,7 @@ class VideoController extends GetxController {
   // states
   Rx<VideoListModel> videoList = VideoListModel(items: []).obs;
   Rx<ListLoading> loadingEuum = Rx<ListLoading>(ListLoading.init);
+  RxBool isScrolling = false.obs;
 
   late VideoRepository _videoRepository;
 
@@ -31,14 +32,6 @@ class VideoController extends GetxController {
     getVideoList();
     super.onInit();
   }
-
-  @override
-  void onReady() {
-    super.onReady();
-  }
-
-  @override
-  void onClose() {}
 
   Future<void> initVideoList() async {
     // loading reload

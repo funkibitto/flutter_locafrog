@@ -3,29 +3,80 @@ import 'package:flutter/material.dart';
 import 'package:flutter_locafrog/app/data/models/video/video_model.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:html_character_entities/html_character_entities.dart';
-import 'package:intl/intl.dart';
+import 'package:inview_notifier_list/inview_notifier_list.dart';
+import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-class VideoItemWidget extends StatelessWidget {
+class VideoItemWidget extends StatefulWidget {
   final VideoModel video;
+  final String id;
+  final bool isScrolling;
 
-  const VideoItemWidget({Key? key, required this.video}) : super(key: key);
+  const VideoItemWidget(
+      {Key? key,
+      this.isScrolling = false,
+      required this.video,
+      required this.id})
+      : super(key: key);
+
+  @override
+  _VideoItemWidgetState createState() => _VideoItemWidgetState();
+}
+
+class _VideoItemWidgetState extends State<VideoItemWidget> {
+  late String _id;
+
+  late YoutubePlayerController _video_controller;
+  late Future<void> _initializeVideoPlayerFuture;
+
+  @override
+  void initState() {
+    _video_controller = YoutubePlayerController(
+      initialVideoId: widget.video.id.videoId,
+      flags: const YoutubePlayerFlags(
+        autoPlay: true,
+        mute: true,
+      ),
+    );
+
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    _video_controller.dispose();
+    super.dispose();
+  }
 
   Widget _thumbnail() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Container(
-          height: 230,
+          height: 230.0,
           color: Colors.grey.withOpacity(0.5),
           child: CachedNetworkImage(
             fit: BoxFit.fitWidth,
             placeholder: (context, url) =>
                 const SpinKitFadingCircle(color: Colors.white, size: 50.0),
-            imageUrl: video.snippet.thumbnails.high.url,
+            imageUrl: widget.video.snippet.thumbnails.high.url,
             errorWidget: (context, url, error) => const Icon(Icons.error),
           ),
         ),
       ],
+    );
+  }
+
+  Widget _videoPlayer() {
+    return Container(
+      color: Colors.red,
+      height: 230.0,
+      child: YoutubePlayer(
+        controller: _video_controller,
+        showVideoProgressIndicator: false,
+        onReady: () {
+          // print('Player is ready.');
+        },
+      ),
     );
   }
 
@@ -35,7 +86,7 @@ class VideoItemWidget extends StatelessWidget {
         child: Row(
           children: [
             CachedNetworkImage(
-              imageUrl: video.snippet.thumbnails.medium.url,
+              imageUrl: widget.video.snippet.thumbnails.medium.url,
               placeholder: (context, url) =>
                   const SpinKitRipple(color: Colors.white, size: 10.0),
               imageBuilder: (context, imageProvider) =>
@@ -56,7 +107,8 @@ class VideoItemWidget extends StatelessWidget {
                     children: [
                       Expanded(
                         child: Text(
-                            HtmlCharacterEntities.decode(video.snippet.title),
+                            HtmlCharacterEntities.decode(
+                                widget.video.snippet.title),
                             maxLines: 2),
                       ),
                       IconButton(
@@ -70,7 +122,7 @@ class VideoItemWidget extends StatelessWidget {
                     children: [
                       Flexible(
                         child: Text(
-                          video.snippet.channelTitle,
+                          widget.video.snippet.channelTitle,
                           maxLines: 1,
                           style: TextStyle(
                             fontSize: 14,
@@ -81,16 +133,16 @@ class VideoItemWidget extends StatelessWidget {
                           ),
                         ),
                       ),
-                      const Text(" . "),
-                      const Text("조횟수 1000"),
-                      Text(
-                        DateFormat("yyyy-MM-dd")
-                            .format(video.snippet.publishTime),
-                        style: TextStyle(
-                          fontSize: 12,
-                          color: Colors.black.withOpacity(0.6),
-                        ),
-                      ),
+                      // const Text(" . "),
+                      // const Text("조횟수 1000"),
+                      // Text(
+                      //   DateFormat("yyyy-MM-dd")
+                      //       .format(_video.snippet.publishTime),
+                      //   style: TextStyle(
+                      //     fontSize: 12,
+                      //     color: Colors.black.withOpacity(0.6),
+                      //   ),
+                      // ),
                     ],
                   )
                 ],
@@ -102,9 +154,26 @@ class VideoItemWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // print('video==============${video.id.videoId}');
-    return Column(
-      children: [_thumbnail(), _itemInfo()],
+    // print('video==============${_video.id.videoId}');
+    return InViewNotifierWidget(
+      id: widget.id,
+      builder: (BuildContext context, bool isInView, Widget? child) {
+        // if (isInView && !widget.isScrolling) {
+        //   print('isInView ======= $isInView =========  ${widget.id} **** ');
+        // }
+
+        return Column(
+          children: [
+            AnimatedSwitcher(
+              duration: const Duration(seconds: 3),
+              child: isInView && !widget.isScrolling
+                  ? _videoPlayer()
+                  : _thumbnail(),
+            ),
+            _itemInfo(),
+          ],
+        );
+      },
     );
   }
 }

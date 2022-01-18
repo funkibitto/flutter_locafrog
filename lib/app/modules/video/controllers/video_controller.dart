@@ -8,13 +8,14 @@ import 'package:logger/logger.dart';
 
 var logger = Logger();
 
+enum ListLoading { init, scroll, reload, done }
+
 class VideoController extends GetxController {
   static VideoController get to => Get.find();
 
   // states
   Rx<VideoListModel> videoList = VideoListModel(items: []).obs;
-  RxBool isLoading = false.obs;
-  RxBool isLast = false.obs;
+  Rx<ListLoading> loadingEuum = Rx<ListLoading>(ListLoading.init);
 
   late VideoRepository _videoRepository;
 
@@ -40,6 +41,9 @@ class VideoController extends GetxController {
   void onClose() {}
 
   void initVideoList() {
+    // loading reload
+    loadingEuum.value = ListLoading.reload;
+
     videoList.update((val) {
       val?.nextPagetoken = "";
       val?.items = [];
@@ -50,24 +54,22 @@ class VideoController extends GetxController {
     if (isReload) {
       initVideoList();
     }
-    isLoading(true);
-    await 1.delay();
-
-    // isLast를 구현하기 위한 방법 .. 임시.
-    int _preTotal = videoList.value.itemsLength;
+    await 2.delay();
 
     VideoListModel? result =
         await _videoRepository.getVideos(videoList.value.nextPagetoken ?? "");
+
     if (result != null && result.isItems) {
       videoList.update((val) {
         val?.nextPagetoken = result.nextPagetoken;
         val?.items.addAll(result.items);
       });
+
+      // loading scroll
+      loadingEuum.value = ListLoading.scroll;
     } else {
-      if (result == null || _preTotal == videoList.value.itemsLength) {
-        isLast(true);
-      }
+      // loading done
+      loadingEuum.value = ListLoading.done;
     }
-    isLoading(false);
   }
 }

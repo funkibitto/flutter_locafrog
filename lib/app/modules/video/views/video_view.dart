@@ -48,48 +48,65 @@ class VideoView extends StatelessWidget {
     );
   }
 
+  Widget _body() {
+    return RefreshIndicator(
+      onRefresh: () async => await controller.getVideoList(isReload: true),
+      edgeOffset: 100.0,
+      child: CustomScrollView(
+        physics: const BouncingScrollPhysics(
+          parent: AlwaysScrollableScrollPhysics(),
+        ),
+        slivers: [
+          _appBar(),
+          SliverList(
+            delegate: SliverChildBuilderDelegate(
+              (context, index) {
+                List<VideoModel> _items = controller.videoList.value.items;
+                if (index >= _items.length - 1) {
+                  if (controller.loadingEuum.value == ListLoading.scroll) {
+                    controller.getVideoList();
+                  }
+                }
+                return VideoItemWidget(
+                  key: Key(_items[index].id.videoId),
+                  video: _items[index],
+                );
+              },
+              childCount: controller.videoList.value.itemsLength,
+            ),
+          ),
+
+          // scroll loading
+          if (controller.loadingEuum.value == ListLoading.scroll) ...[
+            const SliverToBoxAdapter(
+                child: SizedBox(
+              height: 200,
+              child: Center(
+                child: SpinKitWave(color: Colors.white, size: 20.0),
+              ),
+            )),
+          ],
+        ],
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: RefreshIndicator(
-        onRefresh: () async => await controller.getVideoList(isReload: true),
-        edgeOffset: 100.0,
-        child: Obx(
-          () => CustomScrollView(
-            physics: const BouncingScrollPhysics(
-              parent: AlwaysScrollableScrollPhysics(),
-            ),
-            slivers: [
-              _appBar(),
-              SliverList(
-                delegate: SliverChildBuilderDelegate(
-                  (context, index) {
-                    List<VideoModel> _items = controller.videoList.value.items;
-                    if (index >= _items.length - 1) {
-                      if (controller.isLast.isFalse) {
-                        controller.getVideoList();
-                      }
-                    }
-                    return VideoItemWidget(
-                      key: Key(_items[index].id.videoId),
-                      video: _items[index],
-                    );
-                  },
-                  childCount: controller.videoList.value.items.length,
-                ),
-              ),
-              SliverToBoxAdapter(
-                child: controller.isLast.isFalse
-                    ? const SizedBox(
-                        height: 200,
-                        child: Center(
-                          child: SpinKitWave(color: Colors.white, size: 20.0),
-                        ),
-                      )
-                    : Container(),
+      body: Obx(
+        () => Stack(
+          children: <Widget>[
+            _body(),
+
+            // init list
+            if (controller.loadingEuum.value == ListLoading.init) ...[
+              const Align(
+                alignment: Alignment.center,
+                child: SpinKitFadingFour(color: Colors.white, size: 50.0),
               ),
             ],
-          ),
+          ],
         ),
       ),
     );

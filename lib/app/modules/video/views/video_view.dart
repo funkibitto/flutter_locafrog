@@ -60,7 +60,6 @@ class _VideoViewState extends State<VideoView> {
   SliverAppBar _appBar() {
     return SliverAppBar(
       floating: true,
-      snap: true,
       leading: const Padding(
         padding: EdgeInsets.only(top: 15, left: 20),
         child: FaIcon(FontAwesomeIcons.chessQueen),
@@ -93,6 +92,34 @@ class _VideoViewState extends State<VideoView> {
     );
   }
 
+  Widget _list() {
+    return SliverList(
+      delegate: SliverChildBuilderDelegate(
+        (context, index) {
+          List<VideoModel> _items = controller.videoList.value.items;
+          if (index >= _items.length - 1) {
+            if (controller.loadingEuum.value == ListLoading.scroll) {
+              controller.getVideoList();
+            }
+          }
+          return VideoItemWidget(
+              id: '$index', video: _items[index], isScrolling: isScrolling);
+        },
+        childCount: controller.videoList.value.itemsLength,
+      ),
+    );
+  }
+
+  Widget _infinityIndicator() {
+    return const SliverToBoxAdapter(
+        child: SizedBox(
+      height: 200,
+      child: Center(
+        child: SpinKitWave(color: Colors.white, size: 20.0),
+      ),
+    ));
+  }
+
   Widget _body() {
     IsInViewPortCondition condition =
         (double deltaTop, double deltaBottom, double vpHeight) {
@@ -118,7 +145,7 @@ class _VideoViewState extends State<VideoView> {
         edgeOffset: 100.0,
         child: InViewNotifierCustomScrollView(
           controller: scrollController,
-          throttleDuration: const Duration(seconds: 1),
+          throttleDuration: const Duration(milliseconds: 2000),
           isInViewPortCondition: condition,
           initialInViewIds: const ['0'],
           physics: const BouncingScrollPhysics(
@@ -126,33 +153,9 @@ class _VideoViewState extends State<VideoView> {
           ),
           slivers: [
             _appBar(),
-            SliverList(
-              delegate: SliverChildBuilderDelegate(
-                (context, index) {
-                  List<VideoModel> _items = controller.videoList.value.items;
-                  if (index >= _items.length - 1) {
-                    if (controller.loadingEuum.value == ListLoading.scroll) {
-                      controller.getVideoList();
-                    }
-                  }
-                  return VideoItemWidget(
-                      id: '$index',
-                      video: _items[index],
-                      isScrolling: isScrolling);
-                },
-                childCount: controller.videoList.value.itemsLength,
-              ),
-            ),
-
-            // scroll loading
+            _list(),
             if (controller.loadingEuum.value == ListLoading.scroll) ...[
-              const SliverToBoxAdapter(
-                  child: SizedBox(
-                height: 200,
-                child: Center(
-                  child: SpinKitWave(color: Colors.white, size: 20.0),
-                ),
-              )),
+              _infinityIndicator()
             ],
           ],
         ),
@@ -160,34 +163,24 @@ class _VideoViewState extends State<VideoView> {
     );
   }
 
+  Widget _initIndicator() {
+    return const Align(
+      alignment: Alignment.center,
+      child: SpinKitFadingFour(color: Colors.white, size: 50.0),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Obx(
-        () => Stack(
-          children: <Widget>[
-            _body(),
-
-            // Align(
-            //   alignment: Alignment.center,
-            //   child: Container(
-            //     height: 50.0,
-            //     color: Colors.green,
-            //     child: Center(
-            //       child: Text(message),
-            //     ),
-            //   ),
-            // ),
-
-            // init loading
-            if (controller.loadingEuum.value == ListLoading.init) ...[
-              const Align(
-                alignment: Alignment.center,
-                child: SpinKitFadingFour(color: Colors.white, size: 50.0),
-              ),
-            ],
+    return Obx(
+      () => Stack(
+        children: <Widget>[
+          _body(),
+          // init loading
+          if (controller.loadingEuum.value == ListLoading.init) ...[
+            _initIndicator()
           ],
-        ),
+        ],
       ),
     );
   }

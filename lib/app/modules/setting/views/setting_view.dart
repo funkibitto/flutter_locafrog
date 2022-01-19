@@ -14,53 +14,55 @@ class SettingView extends GetView<SettingController> {
         title: Text('계정'),
         centerTitle: false,
       ),
-      body: ListView(
-        padding: padding.add(EdgeInsets.symmetric(vertical: 10)),
-        children: <Widget>[
-          Obx(
-            () => controller.user.value != null
-                ? buildHeader(
-                    urlImage: controller.user.value!.profileImageUrl,
-                    name: controller.user.value!.name,
-                    email: controller.user.value!.email,
-                    onClicked: () => {})
-                : Container(),
-          ),
-          const SizedBox(height: 50),
-          Text(
-            'Contents Title',
-            style: TextStyle(
-              fontSize: 16,
-              color: Colors.white,
-              fontWeight: FontWeight.w700,
+      body: SafeArea(
+        child: ListView(
+          padding: padding.add(EdgeInsets.symmetric(vertical: 10)),
+          children: <Widget>[
+            Obx(
+              () => controller.user.value != null
+                  ? buildHeader(
+                      urlImage: controller.user.value!.profileImageUrl,
+                      name: controller.user.value!.name,
+                      email: controller.user.value!.email,
+                      onClicked: () => {})
+                  : Container(),
             ),
-          ),
-          const SizedBox(height: 20),
-          Container(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-                buildMenuItem(text: '기록', icon: Icons.history),
-              ],
+            const SizedBox(height: 50),
+            Text(
+              'Contents Title',
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.white,
+                fontWeight: FontWeight.w700,
+              ),
             ),
-          )
-        ],
+            const SizedBox(height: 20),
+            Container(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                  buildMenuItem(text: '기록', icon: Icons.history),
+                ],
+              ),
+            )
+          ],
+        ),
       ),
     );
   }

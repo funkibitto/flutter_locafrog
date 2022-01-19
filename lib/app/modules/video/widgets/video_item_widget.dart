@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_locafrog/app/data/models/video/video_model.dart';
+import 'package:flutter_locafrog/app/modules/video/widgets/video_player_widget.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:html_character_entities/html_character_entities.dart';
 import 'package:inview_notifier_list/inview_notifier_list.dart';
-import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class VideoItemWidget extends StatefulWidget {
   final VideoModel video;
@@ -25,58 +25,27 @@ class VideoItemWidget extends StatefulWidget {
 class _VideoItemWidgetState extends State<VideoItemWidget> {
   late String _id;
 
-  late YoutubePlayerController _video_controller;
-  late Future<void> _initializeVideoPlayerFuture;
-
   @override
   void initState() {
-    _video_controller = YoutubePlayerController(
-      initialVideoId: widget.video.id.videoId,
-      flags: const YoutubePlayerFlags(
-        hideControls: true,
-        autoPlay: true,
-        mute: true,
-      ),
-    );
-
     super.initState();
   }
 
   @override
   void dispose() {
-    _video_controller.dispose();
     super.dispose();
   }
 
   Widget _thumbnail() {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: [
-        Container(
-          height: 230.0,
-          color: Colors.grey.withOpacity(0.5),
-          child: CachedNetworkImage(
-            fit: BoxFit.fitWidth,
-            placeholder: (context, url) =>
-                const SpinKitFadingCircle(color: Colors.white, size: 50.0),
-            imageUrl: widget.video.snippet.thumbnails.high.url,
-            errorWidget: (context, url, error) => const Icon(Icons.error),
-          ),
-        ),
-      ],
-    );
-  }
-
-  Widget _videoPlayer() {
     return Container(
-      color: Colors.red,
-      height: 230.0,
-      child: YoutubePlayer(
-        controller: _video_controller,
-        showVideoProgressIndicator: false,
-        onReady: () {
-          // print('Player is ready.');
-        },
+      width: double.infinity,
+      height: double.infinity,
+      color: Colors.grey.withOpacity(0.5),
+      child: CachedNetworkImage(
+        fit: BoxFit.fitWidth,
+        placeholder: (context, url) =>
+            const SpinKitFadingCircle(color: Colors.white, size: 50.0),
+        imageUrl: widget.video.snippet.thumbnails.high.url,
+        errorWidget: (context, url, error) => const Icon(Icons.error),
       ),
     );
   }
@@ -155,24 +124,31 @@ class _VideoItemWidgetState extends State<VideoItemWidget> {
 
   @override
   Widget build(BuildContext context) {
-    // print('video==============${_video.id.videoId}');
     return InViewNotifierWidget(
       id: widget.id,
       builder: (BuildContext context, bool isInView, Widget? child) {
         return Column(
           children: [
-            AnimatedSwitcher(
-              duration: const Duration(seconds: 3),
-              child: GestureDetector(
-                behavior: HitTestBehavior.translucent,
-                onTap: () {
-                  print('========ONTAP');
-                },
-                child: Container(
-                  child: isInView && !widget.isScrolling
-                      ? _videoPlayer()
-                      : _thumbnail(),
-                ),
+            Container(
+              height: 230.0,
+              width: double.infinity,
+              child: AnimatedSwitcher(
+                duration: const Duration(seconds: 1),
+                child: isInView && !widget.isScrolling
+                    ? VideoPlayerWidget(videoId: widget.video.id.videoId)
+                    : _thumbnail(),
+
+                // child: GestureDetector(
+                //   behavior: HitTestBehavior.translucent,
+                //   onTap: () {
+                //     print('========ONTAP');
+                //   },
+                //   child: Container(
+                //     child: isInView && !widget.isScrolling
+                //         ? _videoPlayer()
+                //         : _thumbnail(),
+                //   ),
+                // ),
               ),
             ),
             _itemInfo(),

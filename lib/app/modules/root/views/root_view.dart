@@ -24,13 +24,15 @@ class RootView extends GetView<RootController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: PageView(
-        controller: controller.pageController,
-        children: List.generate(
-          _pages.length,
-          (index) => KeepAliveWrapper(child: _pages[index]["widget"]),
+      body: SafeArea(
+        child: PageView(
+          controller: controller.pageController,
+          children: List.generate(
+            _pages.length,
+            (index) => KeepAliveWrapper(child: _pages[index]["widget"]),
+          ),
+          physics: const NeverScrollableScrollPhysics(),
         ),
-        physics: const NeverScrollableScrollPhysics(),
       ),
       bottomNavigationBar: _bottomNavigationBar(),
     );
@@ -92,9 +94,8 @@ class TabTestView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Color(Random().nextInt(0xffffffff)),
-      body: ListView(
+    return SingleChildScrollView(
+      child: ListView(
         children: List<Widget>.generate(
           100,
           (index) => Container(

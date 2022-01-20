@@ -41,14 +41,12 @@ class RootView extends GetView<RootController> {
               (index) => GestureDetector(
                 behavior: HitTestBehavior.translucent,
                 onTap: () => {
-                  controller.changeTab(index)
-
-                  // if (index == controller.currentIndex.value)
-                  //   PrimaryScrollController.of(context)?.animateTo(0.0,
-                  //       duration: const Duration(milliseconds: 300),
-                  //       curve: Curves.linear)
-                  // else
-                  //   controller.changeTab(index)
+                  if (index == controller.currentIndex.value)
+                    PrimaryScrollController.of(context)?.animateTo(0.0,
+                        duration: const Duration(milliseconds: 300),
+                        curve: Curves.linear)
+                  else
+                    controller.changeTab(index)
                 },
                 child: SizedBox(
                   width: 80.0,

@@ -25,7 +25,9 @@ class _VideoViewState extends State<VideoView> {
         child: FaIcon(FontAwesomeIcons.chessQueen),
       ),
       titleSpacing: 0.0,
-      title: const Text('Locafrog'),
+      title: const Text(
+        'LFG',
+      ),
       centerTitle: false,
       actions: [
         IconButton(

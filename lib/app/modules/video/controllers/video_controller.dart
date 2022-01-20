@@ -29,9 +29,13 @@ class VideoController extends GetxController {
 
   @override
   void onInit() {
+    print('VideoController init ${videoList.value.itemsLength}');
     getVideoList();
     super.onInit();
   }
+
+  @override
+  void onClose() {}
 
   Future<void> initVideoList() async {
     // loading reload
@@ -50,7 +54,8 @@ class VideoController extends GetxController {
     if (isReload) {
       await initVideoList();
     }
-    // await 2.delay();
+    print("GET VIDEO");
+    await 1.delay();
 
     VideoListModel? result =
         await _videoRepository.getVideos(videoList.value.nextPagetoken ?? "");

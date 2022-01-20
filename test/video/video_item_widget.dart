@@ -1,16 +1,22 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_locafrog/app/data/models/video/video_model.dart';
+import 'package:flutter_locafrog/app/modules/video/widgets/video_player_widget.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:html_character_entities/html_character_entities.dart';
+import 'package:inview_notifier_list/inview_notifier_list.dart';
 
 class VideoItemWidget extends StatefulWidget {
   final VideoModel video;
+  final String id;
+  final bool isScrolling;
 
-  const VideoItemWidget({
-    Key? key,
-    required this.video,
-  }) : super(key: key);
+  const VideoItemWidget(
+      {Key? key,
+      this.isScrolling = false,
+      required this.video,
+      required this.id})
+      : super(key: key);
 
   @override
   _VideoItemWidgetState createState() => _VideoItemWidgetState();
@@ -32,7 +38,7 @@ class _VideoItemWidgetState extends State<VideoItemWidget> {
   Widget _thumbnail() {
     return Container(
       width: double.infinity,
-      height: 230.0,
+      height: double.infinity,
       color: Colors.grey.withOpacity(0.5),
       child: CachedNetworkImage(
         fit: BoxFit.fitWidth,
@@ -97,6 +103,16 @@ class _VideoItemWidgetState extends State<VideoItemWidget> {
                           ),
                         ),
                       ),
+                      // const Text(" . "),
+                      // const Text("조횟수 1000"),
+                      // Text(
+                      //   DateFormat("yyyy-MM-dd")
+                      //       .format(_video.snippet.publishTime),
+                      //   style: TextStyle(
+                      //     fontSize: 12,
+                      //     color: Colors.black.withOpacity(0.6),
+                      //   ),
+                      // ),
                     ],
                   )
                 ],
@@ -108,11 +124,37 @@ class _VideoItemWidgetState extends State<VideoItemWidget> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        _thumbnail(),
-        _itemInfo(),
-      ],
+    return InViewNotifierWidget(
+      id: widget.id,
+      builder: (BuildContext context, bool isInView, Widget? child) {
+        return Column(
+          children: [
+            Container(
+              height: 230.0,
+              width: double.infinity,
+              child: AnimatedSwitcher(
+                duration: const Duration(seconds: 1),
+                child: isInView && !widget.isScrolling
+                    ? VideoPlayerWidget(videoId: widget.video.id.videoId)
+                    : _thumbnail(),
+
+                // child: GestureDetector(
+                //   behavior: HitTestBehavior.translucent,
+                //   onTap: () {
+                //     print('========ONTAP');
+                //   },
+                //   child: Container(
+                //     child: isInView && !widget.isScrolling
+                //         ? _videoPlayer()
+                //         : _thumbnail(),
+                //   ),
+                // ),
+              ),
+            ),
+            _itemInfo(),
+          ],
+        );
+      },
     );
   }
 }

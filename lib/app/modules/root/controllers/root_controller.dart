@@ -7,7 +7,7 @@ class RootController extends GetxController {
 
   void changeTab(int index) {
     currentIndex.value = index;
-     pageController.jumpToPage(index);
+    pageController.jumpToPage(index);
   }
 
   @override
@@ -17,11 +17,6 @@ class RootController extends GetxController {
       keepPage: true,
     );
     super.onInit();
-  }
-
-  @override
-  void onReady() {
-    super.onReady();
   }
 
   @override

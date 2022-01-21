@@ -9,6 +9,7 @@ class SplashView extends GetView<SplashService> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
@@ -16,10 +17,12 @@ class SplashView extends GetView<SplashService> {
             Obx(
               () => Text(
                 controller.welcomeStr[controller.activeStr.value],
-                style: const TextStyle(fontSize: 20),
+                style: TextStyle(
+                  fontSize: 40,
+                  color: controller.fontColor.value,
+                ),
               ),
             ),
-            const CircularProgressIndicator(),
           ],
         ),
       ),

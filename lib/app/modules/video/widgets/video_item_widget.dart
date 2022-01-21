@@ -33,7 +33,7 @@ class _VideoItemWidgetState extends State<VideoItemWidget> {
     return Container(
       width: double.infinity,
       height: 230.0,
-      color: Colors.grey.withOpacity(0.5),
+      color: Colors.black.withOpacity(0.5),
       child: CachedNetworkImage(
         fit: BoxFit.fitWidth,
         placeholder: (context, url) =>
@@ -52,7 +52,7 @@ class _VideoItemWidgetState extends State<VideoItemWidget> {
             CachedNetworkImage(
               imageUrl: widget.video.snippet.thumbnails.medium.url,
               placeholder: (context, url) =>
-                  const SpinKitRipple(color: Colors.white, size: 10.0),
+                  const SpinKitRipple(color: Colors.grey, size: 10.0),
               imageBuilder: (context, imageProvider) =>
                   CircleAvatar(radius: 20, backgroundImage: imageProvider),
               errorWidget: (context, url, error) => const CircleAvatar(
@@ -73,6 +73,7 @@ class _VideoItemWidgetState extends State<VideoItemWidget> {
                         child: Text(
                             HtmlCharacterEntities.decode(
                                 widget.video.snippet.title),
+                            style: const TextStyle(fontWeight: FontWeight.w600),
                             maxLines: 2),
                       ),
                       IconButton(
@@ -90,7 +91,7 @@ class _VideoItemWidgetState extends State<VideoItemWidget> {
                           maxLines: 1,
                           style: TextStyle(
                             fontSize: 14,
-                            color: Colors.white.withOpacity(
+                            color: Colors.black.withOpacity(
                               0.8,
                             ),
                             overflow: TextOverflow.fade,

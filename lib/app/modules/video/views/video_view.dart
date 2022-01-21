@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_locafrog/app/data/models/video/video_model.dart';
-import 'package:flutter_locafrog/app/modules/auth/services/auth_service.dart';
+import 'package:flutter_locafrog/app/modules/common/widgets/app_bar_widget.dart';
 import 'package:flutter_locafrog/app/modules/video/controllers/video_controller.dart';
 import 'package:flutter_locafrog/app/modules/video/widgets/video_item_widget.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 
 class VideoView extends StatefulWidget {
@@ -16,43 +15,6 @@ class VideoView extends StatefulWidget {
 
 class _VideoViewState extends State<VideoView> {
   late VideoController controller;
-
-  SliverAppBar _appBar() {
-    return SliverAppBar(
-      floating: true,
-      leading: const Padding(
-        padding: EdgeInsets.only(top: 15, left: 20),
-        child: FaIcon(FontAwesomeIcons.chessQueen),
-      ),
-      titleSpacing: 0.0,
-      title: const Text(
-        'LFG',
-      ),
-      centerTitle: false,
-      actions: [
-        IconButton(
-          icon: const Icon(Icons.home),
-          onPressed: () {
-            Get.toNamed('/login');
-          },
-        ),
-        IconButton(
-          icon: const Icon(Icons.access_alarm_sharp),
-          onPressed: () {
-            Get.toNamed('/login');
-          },
-        ),
-        if (AuthService.to.isLoggedIn.isTrue) ...[
-          IconButton(
-            icon: const Icon(Icons.person),
-            onPressed: () {
-              Get.toNamed('/setting');
-            },
-          )
-        ],
-      ],
-    );
-  }
 
   Widget _list() {
     return SliverList(
@@ -76,7 +38,7 @@ class _VideoViewState extends State<VideoView> {
         child: SizedBox(
       height: 200,
       child: Center(
-        child: SpinKitWave(color: Colors.white, size: 20.0),
+        child: SpinKitWave(color: Colors.black, size: 20.0),
       ),
     ));
   }
@@ -91,12 +53,11 @@ class _VideoViewState extends State<VideoView> {
       child: CustomScrollView(
         key: const PageStorageKey('VideoList'),
         primary: true,
-        // controller: controller.scrollController,
         physics: const BouncingScrollPhysics(
           parent: AlwaysScrollableScrollPhysics(),
         ),
         slivers: [
-          _appBar(),
+          const AppBarWidget(),
           _list(),
           if (controller.loadingEuum.value == ListLoading.scroll) ...[
             _infinityIndicator()

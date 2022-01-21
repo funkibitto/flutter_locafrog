@@ -27,7 +27,7 @@ class RootView extends GetView<RootController> {
     return Builder(builder: (context) {
       return Container(
         height: 80,
-        decoration: const BoxDecoration(color: Colors.black),
+        decoration: const BoxDecoration(color: Colors.white),
         child: Padding(
           padding: const EdgeInsets.only(
             left: 20,
@@ -56,8 +56,8 @@ class RootView extends GetView<RootController> {
                         Icon(
                           _pages[index]['icon'],
                           color: controller.currentIndex.value == index
-                              ? Colors.white
-                              : Colors.white.withOpacity(0.5),
+                              ? Colors.black
+                              : Colors.black.withOpacity(0.5),
                         ),
                         const SizedBox(
                           height: 5,
@@ -67,8 +67,8 @@ class RootView extends GetView<RootController> {
                           style: TextStyle(
                               fontSize: 10,
                               color: controller.currentIndex.value == index
-                                  ? Colors.white
-                                  : Colors.white.withOpacity(0.5)),
+                                  ? Colors.black
+                                  : Colors.black.withOpacity(0.5)),
                         )
                       ],
                     ),
@@ -84,19 +84,26 @@ class RootView extends GetView<RootController> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      extendBody: true,
-      body: SafeArea(
-        child: PageView(
-          controller: controller.pageController,
-          children: List.generate(
-            _pages.length,
-            (index) => _pages[index]["widget"],
+    return NotificationListener<ScrollNotification>(
+      onNotification: controller.handleScrollNotification,
+      child: Scaffold(
+        extendBody: true,
+        body: SafeArea(
+          child: PageView(
+            controller: controller.pageController,
+            children: List.generate(
+              _pages.length,
+              (index) => _pages[index]["widget"],
+            ),
+            physics: const NeverScrollableScrollPhysics(),
           ),
-          physics: const NeverScrollableScrollPhysics(),
+        ),
+        bottomNavigationBar: SizeTransition(
+          sizeFactor: controller.animationController,
+          axisAlignment: -1.0,
+          child: _bottomNavigationBar(),
         ),
       ),
-      bottomNavigationBar: _bottomNavigationBar(),
     );
   }
 }

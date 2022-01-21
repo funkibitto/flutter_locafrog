@@ -1,0 +1,5963 @@
+{
+  "section": [
+    {
+      "type": "banner",
+      "template": "image",
+      "data": {
+        "webviewType": "FULL_WEBVIEW",
+        "bannerId": "18anek2g8804",
+        "gaTitle": "20220120_18anek2g8804_폴햄_우먼",
+        "destination": "https://v.wemakeprice.com/link/wstyle/todayBrand",
+        "attach": {
+          "attachUri": "https://fashion-static.wd.wemakeprice.com/banner/attach/fo0418anej2i/",
+          "width": 750,
+          "attachId": "18anej2ifo04",
+          "height": 193,
+          "ratio": {
+            "360x0": 0.2573,
+            "720x0": 0.2573,
+            "org": 0.2573,
+            "960x0": 0.2573,
+            "72x0": 0.2573
+          }
+        },
+        "sectionType": "image",
+        "sortHint": 0
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "18an4o28pu03",
+        "gaTitle": "20220119_18an4o28pu03_로코코 _최대 80% 할인",
+        "title": "로코코 데일리코디 BEST",
+        "subTitle": "최대 80% 할인",
+        "template": "tabList",
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "productId": 2002899523,
+                "gender": "F",
+                "type": 1,
+                "title": "키모키 패딩_r",
+                "partner": {
+                  "id": "vispera01"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/3/952/2002899523/2002899523.jpg",
+                "price": {
+                  "list": 93900
+                }
+              },
+              {
+                "productId": 2002834314,
+                "gender": "F",
+                "type": 1,
+                "title": "푸올 패딩_r",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "vispera01"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/431/2002834314/2002834314.jpg",
+                "price": {
+                  "list": 93900
+                }
+              },
+              {
+                "productId": 2002860154,
+                "gender": "F",
+                "type": 1,
+                "title": "형광 배색 패딩_r",
+                "partner": {
+                  "id": "vispera01"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/015/2002860154/2002860154.jpg",
+                "price": {
+                  "list": 101900
+                }
+              },
+              {
+                "productId": 2002823358,
+                "gender": "F",
+                "type": 1,
+                "title": "트로이드 퍼 자켓_d",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "vispera01"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010102"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 2
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/8/335/2002823358/2002823358.jpg",
+                "price": {
+                  "list": 99900
+                }
+              },
+              {
+                "productId": 2002871286,
+                "gender": "F",
+                "type": 1,
+                "title": "파이브 데일리 패딩_r",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "vispera01"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/128/2002871286/2002871286.jpg",
+                "price": {
+                  "list": 83900
+                }
+              },
+              {
+                "productId": 2002865062,
+                "gender": "F",
+                "type": 1,
+                "title": "브크 스노우 코트_r",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "vispera01"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/2/506/2002865062/2002865062.jpg",
+                "price": {
+                  "list": 122900
+                }
+              },
+              {
+                "productId": 2002866294,
+                "gender": "F",
+                "type": 1,
+                "title": "디크 넥니트 패딩_r",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "vispera01"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 1
+                },
+                "score": {
+                  "hoursSold": 0
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/629/2002866294/2002866294.jpg",
+                "price": {
+                  "list": 98900
+                }
+              },
+              {
+                "productId": 2002900570,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 1
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "바니 누빔패딩_r",
+                "score": {
+                  "hoursSold": null
+                },
+                "partner": {
+                  "id": "vispera01"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010406"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/057/2002900570/2002900570.jpg",
+                "price": {
+                  "list": 58900
+                }
+              },
+              {
+                "productId": 2002854851,
+                "gender": "F",
+                "type": 1,
+                "title": "푸올 패딩_r",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "vispera01"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/485/2002854851/2002854851.jpg",
+                "price": {
+                  "list": 93900
+                }
+              },
+              {
+                "productId": 2002838530,
+                "gender": "F",
+                "type": 1,
+                "title": "프렛 심플 코트_r",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "vispera01"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 2
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/853/2002838530/2002838530.jpg",
+                "price": {
+                  "list": 101900
+                }
+              }
+            ],
+            "name": "로코코",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "banner",
+      "template": "image",
+      "data": {
+        "webviewType": "WMP_PROMOTION",
+        "bannerId": "18439f2gra03",
+        "gaTitle": "20220117_18439f2gra03_이룸코리아",
+        "destination": "irumkorea2",
+        "attach": {
+          "attachUri": "https://fashion-static.wd.wemakeprice.com/banner/attach/6g0218439a2i/",
+          "width": 750,
+          "height": 193,
+          "ratio": {
+            "360x0": 0.2573,
+            "720x0": 0.2573,
+            "org": 0.2573,
+            "960x0": 0.2573,
+            "72x0": 0.2573
+          }
+        },
+        "sectionType": "image",
+        "sortHint": 1
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "18amqg283c04",
+        "gaTitle": "20220119_18amqg283c04_쉬즈프리티_마지막찬스 핫베스트300",
+        "bannerAttach": null,
+        "title": "쉬즈프리티 최대 80% 선착순!",
+        "subTitle": "마지막찬스 핫베스트300",
+        "template": "tabList",
+        "fontColor": null,
+        "themeColor": null,
+        "slideBarType": null,
+        "isMoreView": null,
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "pageUnit": null,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "productId": 2004098878,
+                "gender": "F",
+                "isDiscount": false,
+                "type": 1,
+                "title": "힐튼 퍼후드 롱패딩",
+                "partner": {
+                  "id": "wanyjuni1005"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 1
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/8/887/2004098878/2004098878.jpg",
+                "price": {
+                  "list": 57900
+                }
+              },
+              {
+                "productId": 2004664967,
+                "gender": "F",
+                "type": 1,
+                "title": "페이크 양모 덤블코트",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wanyjuni1005"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 1
+                },
+                "score": {
+                  "hoursSold": 0
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/496/2004664967/2004664967.jpg",
+                "price": {
+                  "list": 28900
+                }
+              },
+              {
+                "productId": 2004516671,
+                "gender": "F",
+                "type": 1,
+                "title": "투웨이 후드레이어드 패딩",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wanyjuni1005"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 1
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/667/2004516671/2004516671.jpg",
+                "price": {
+                  "list": 57900
+                }
+              },
+              {
+                "productId": 2004635894,
+                "gender": "F",
+                "type": 1,
+                "title": "매드니 린지 누빔 패딩",
+                "partner": {
+                  "id": "wanyjuni1005"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/589/2004635894/2004635894.jpg",
+                "price": {
+                  "list": 52900
+                }
+              },
+              {
+                "productId": 2004098361,
+                "gender": "F",
+                "isDiscount": false,
+                "type": 1,
+                "title": "켈리 폰트 패딩(선착순)",
+                "partner": {
+                  "id": "wanyjuni1005"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 1
+                },
+                "score": {
+                  "hoursSold": 0
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/836/2004098361/2004098361.jpg",
+                "price": {
+                  "list": 47900
+                }
+              },
+              {
+                "productId": 1993230024,
+                "gender": "F",
+                "type": 1,
+                "title": "터치 퍼후드 다운패딩",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wanyjuni1005"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/002/1993230024/1993230024.jpg",
+                "price": {
+                  "list": 65900
+                }
+              },
+              {
+                "productId": 1993211910,
+                "gender": "F",
+                "type": 1,
+                "title": "쟈넬 소프트 렉스퍼 코트",
+                "partner": {
+                  "id": "wanyjuni1005"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/191/1993211910/1993211910.jpg",
+                "price": {
+                  "list": 65900
+                }
+              },
+              {
+                "productId": 1993227411,
+                "gender": "F",
+                "type": 1,
+                "title": "솜털 니트 풀오버",
+                "partner": {
+                  "id": "wanyjuni1005"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010205"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/741/1993227411/1993227411.jpg",
+                "price": {
+                  "list": 34900
+                }
+              },
+              {
+                "productId": 1993197388,
+                "gender": "F",
+                "type": 1,
+                "title": "데이브 덤블 롱코트",
+                "partner": {
+                  "id": "wanyjuni1005"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 2
+                },
+                "score": {
+                  "hoursSold": 0
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/8/738/1993197388/1993197388.jpg",
+                "price": {
+                  "list": 57900
+                }
+              },
+              {
+                "productId": 1993199814,
+                "gender": "F",
+                "type": 1,
+                "title": "타미야 퍼후드 코트",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wanyjuni1005"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 1
+                },
+                "score": {
+                  "hoursSold": 0
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/981/1993199814/1993199814.jpg",
+                "price": {
+                  "list": 67900
+                }
+              }
+            ],
+            "name": "쉬즈프리티",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "18ama028vm05",
+        "gaTitle": "20220119_18ama028vm05_줄리샵 _니트/패딩/팬츠외 300종",
+        "title": "줄리샵 최대 75% 세일",
+        "subTitle": "니트/패딩/팬츠외 300종",
+        "template": "tabList",
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "productId": 1998350458,
+                "gender": "F",
+                "type": 1,
+                "title": "베이버 페미닌 패딩_d",
+                "partner": {
+                  "id": "vispera01"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010406"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/8/045/1998350458/1998350458.jpg",
+                "price": {
+                  "list": 69900
+                }
+              },
+              {
+                "productId": 1998351007,
+                "gender": "F",
+                "type": 1,
+                "title": "모네 빅카라 무스탕_d",
+                "partner": {
+                  "id": "vispera01"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010406"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/100/1998351007/1998351007.jpg",
+                "price": {
+                  "list": 70900
+                }
+              },
+              {
+                "productId": 1998350075,
+                "gender": "F",
+                "type": 1,
+                "title": "크로프 패딩_d",
+                "partner": {
+                  "id": "vispera01"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010406"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/5/007/1998350075/1998350075.jpg",
+                "price": {
+                  "list": 56900
+                }
+              },
+              {
+                "productId": 1998353591,
+                "gender": "F",
+                "type": 1,
+                "title": "챠밍 소매 퍼프 니트_d",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "vispera01"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010406"
+                ],
+                "stockQuantity": {
+                  "sold": 14
+                },
+                "score": {
+                  "hoursSold": 3
+                },
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/359/1998353591/1998353591.jpg",
+                "price": {
+                  "list": 26900
+                }
+              },
+              {
+                "productId": 1998335446,
+                "gender": "F",
+                "type": 1,
+                "title": "파티아 푸리스 점퍼_d",
+                "partner": {
+                  "id": "vispera01"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010406"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 1
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/544/1998335446/1998335446.jpg",
+                "price": {
+                  "list": 55900
+                }
+              },
+              {
+                "productId": 1998355891,
+                "gender": "F",
+                "type": 1,
+                "title": "로벨 기본 티셔츠_r",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "vispera01"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 12
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/589/1998355891/1998355891.jpg",
+                "price": {
+                  "list": 15900
+                }
+              },
+              {
+                "productId": 1998334220,
+                "gender": "F",
+                "type": 1,
+                "title": "바이븐 퀼팅 벨트 패딩_d",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "vispera01"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010406"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/422/1998334220/1998334220.jpg",
+                "price": {
+                  "list": 56900
+                }
+              },
+              {
+                "productId": 1998353820,
+                "type": 1,
+                "title": "트로이드 퍼 자켓_d",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "vispera01"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10020500",
+                  "20020500"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 1
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/382/1998353820/1998353820.jpg",
+                "price": {
+                  "list": 63900
+                }
+              },
+              {
+                "productId": 1998332479,
+                "gender": "F",
+                "type": 1,
+                "title": "베리엘 후드 야상_d",
+                "partner": {
+                  "id": "vispera01"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 3
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "review": {
+                  "average": 1,
+                  "textCount": 1
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/9/247/1998332479/1998332479.jpg",
+                "price": {
+                  "list": 29900
+                }
+              },
+              {
+                "productId": 1998330835,
+                "gender": "F",
+                "type": 1,
+                "title": "페브 베이직 더블 코트_d",
+                "partner": {
+                  "id": "vispera01"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010406"
+                ],
+                "stockQuantity": {
+                  "sold": 75
+                },
+                "score": {
+                  "hoursSold": 1
+                },
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/5/083/1998330835/1998330835.jpg",
+                "price": {
+                  "list": 45900
+                }
+              }
+            ],
+            "name": "줄리샵",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "189anb28n602",
+        "gaTitle": "20220119_189anb28n602_제이프랑 _가성비 세일 맨투맨/조거/기모신상 외",
+        "title": "제이프랑 겨울신상 대방출",
+        "subTitle": "가성비 세일 맨투맨/조거/기모신상 외",
+        "template": "tabList",
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "productId": 1943003070,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 16
+                },
+                "isDiscount": true,
+                "type": 1,
+                "title": "제이프랑 여성용 티셔츠 뽀글이패치USA맨투맨",
+                "score": {
+                  "hoursSold": 0
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "jfranc4286"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010204"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/307/1943003070/1943003070.jpg",
+                "price": {
+                  "list": 10900,
+                  "discountRate": 16
+                }
+              },
+              {
+                "productId": 1962702776,
+                "gender": "F",
+                "type": 1,
+                "title": "제이프랑 여성용 티셔츠 기모원더골드호일",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "jfranc4286"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010204"
+                ],
+                "isDiscount": true,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 12
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/277/1962702776/1962702776.jpg",
+                "price": {
+                  "list": 11900,
+                  "discountRate": 14
+                }
+              },
+              {
+                "productId": 2004675561,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 33
+                },
+                "isDiscount": true,
+                "type": 1,
+                "title": "제이프랑 여성용 티셔츠 베이직무지맨투맨",
+                "score": {
+                  "hoursSold": 2
+                },
+                "partner": {
+                  "id": "jfranc4286"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010204"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/556/2004675561/2004675561.jpg",
+                "price": {
+                  "list": 3900,
+                  "discountRate": 34
+                }
+              },
+              {
+                "productId": 1973772981,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 24
+                },
+                "isDiscount": true,
+                "type": 1,
+                "title": "제이프랑 여성용 티셔츠 NY뉴욕자수양털맨투맨",
+                "score": {
+                  "hoursSold": 2
+                },
+                "partner": {
+                  "id": "jfranc4286"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010204"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/298/1973772981/1973772981.jpg",
+                "price": {
+                  "list": 11900,
+                  "discountRate": 14
+                }
+              },
+              {
+                "productId": 1982709114,
+                "gender": "F",
+                "isDiscount": true,
+                "type": 1,
+                "title": "제이프랑 여성용 티셔츠 뉴라벨기모단가라박스",
+                "partner": {
+                  "id": "jfranc4286"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 26
+                },
+                "score": {
+                  "hoursSold": 6
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/911/1982709114/1982709114.jpg",
+                "price": {
+                  "list": 11900,
+                  "discountRate": 14
+                }
+              },
+              {
+                "productId": 1962697400,
+                "gender": "F",
+                "type": 1,
+                "title": "제이프랑 여성용 트레이닝 기모유니곰조거SET",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "jfranc4286"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10060000"
+                ],
+                "isDiscount": true,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 43
+                },
+                "score": {
+                  "hoursSold": 5
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/740/1962697400/1962697400.jpg",
+                "price": {
+                  "list": 11900,
+                  "discountRate": 14
+                }
+              },
+              {
+                "productId": 2009031713,
+                "gender": "F",
+                "type": 1,
+                "title": "제이프랑 여성용 티셔츠 론리송치니트맨투맨",
+                "partner": {
+                  "id": "jfranc4286"
+                },
+                "shipping": {},
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010204"
+                ],
+                "isDiscount": true,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/3/171/2009031713/2009031713.jpg",
+                "price": {
+                  "list": 12900,
+                  "discountRate": 13
+                }
+              },
+              {
+                "productId": 2002837570,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 2
+                },
+                "isDiscount": true,
+                "type": 1,
+                "title": "제이프랑 여성용 티셔츠 페이즐리미키맨투맨",
+                "score": {
+                  "hoursSold": null
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "jfranc4286"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010204"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/757/2002837570/2002837570.jpg",
+                "price": {
+                  "list": 12900,
+                  "discountRate": 13
+                }
+              },
+              {
+                "productId": 1920192908,
+                "gender": "F",
+                "type": 1,
+                "title": "제이프랑 여성용 팬츠 도톰기모조거팬츠",
+                "partner": {
+                  "id": "jfranc4286"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010400"
+                ],
+                "isDiscount": true,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 45
+                },
+                "score": {
+                  "hoursSold": 7
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/8/290/1920192908/1920192908.jpg",
+                "price": {
+                  "list": 7500,
+                  "discountRate": 21
+                }
+              },
+              {
+                "productId": 1895079850,
+                "gender": "F",
+                "isDiscount": true,
+                "type": 1,
+                "title": "제이프랑 여성용 티셔츠 기모푸딩맨투맨",
+                "partner": {
+                  "id": "jfranc4286"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010204"
+                ],
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 17
+                },
+                "score": {
+                  "hoursSold": -1
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/985/1895079850/1895079850.jpg",
+                "price": {
+                  "list": 6900,
+                  "discountRate": 22
+                }
+              }
+            ],
+            "name": "제이프랑",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "18c12e28vo03",
+        "gaTitle": "20220120_18c12e28vo03_기프티박스 _선착순 최대 90% ",
+        "title": "기프티박스 데일리룩 BEST",
+        "subTitle": "선착순 최대 90% ",
+        "template": "tabList",
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "productId": 1993147925,
+                "gender": "F",
+                "type": 1,
+                "title": "이불 덮은듯 울 양털 안감 박스핏 가디건",
+                "partner": {
+                  "id": "gifteabox"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010101"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 9
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/5/792/1993147925/1993147925.jpg",
+                "price": {
+                  "list": 46900
+                }
+              },
+              {
+                "productId": 1996261785,
+                "gender": "F",
+                "type": 1,
+                "title": "팔레트 도톰 카라 아가일 니트",
+                "partner": {
+                  "id": "gifteabox"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010205"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 8
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/5/178/1996261785/1996261785.jpg",
+                "price": {
+                  "list": 27900
+                }
+              },
+              {
+                "productId": 1948997183,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 119
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "핏 실화 크롭 워머 기모 폴라 티셔츠",
+                "score": {
+                  "hoursSold": 2
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "gifteabox"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isCoupon": true,
+                "review": {
+                  "average": 4,
+                  "textCount": 1
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/3/718/1948997183/1948997183.jpg",
+                "price": {
+                  "list": 9900
+                }
+              },
+              {
+                "productId": 2002676426,
+                "gender": "F",
+                "type": 1,
+                "title": "버터 오버핏 양기모 반집업 맨투맨",
+                "partner": {
+                  "id": "gifteabox"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010204"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 12
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/642/2002676426/2002676426.jpg",
+                "price": {
+                  "list": 32500
+                }
+              },
+              {
+                "productId": 1997262299,
+                "gender": "F",
+                "type": 1,
+                "title": "구스타브 아가일 브이넥 크롭 니트",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "gifteabox"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010205"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 9
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/9/229/1997262299/1997262299.jpg",
+                "price": {
+                  "list": 22800
+                }
+              },
+              {
+                "productId": 1922227534,
+                "gender": "F",
+                "type": 1,
+                "title": "소다 기모 지퍼 아노락 맨투맨",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "gifteabox"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010204"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 49
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/753/1922227534/1922227534.jpg",
+                "price": {
+                  "list": 20800
+                }
+              },
+              {
+                "productId": 1978953775,
+                "gender": "F",
+                "type": 1,
+                "title": "딜라잇 핀턱 일자 기모 슬랙스",
+                "partner": {
+                  "id": "gifteabox"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010401"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 61
+                },
+                "score": {
+                  "hoursSold": 1
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/5/377/1978953775/1978953775.jpg",
+                "price": {
+                  "list": 19800
+                }
+              },
+              {
+                "productId": 1934763191,
+                "gender": "F",
+                "type": 1,
+                "title": "핑퐁 퍼프 꽈배기 크롭 니트",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "gifteabox"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010205"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 175
+                },
+                "score": {
+                  "hoursSold": 1
+                },
+                "review": {
+                  "average": 2,
+                  "textCount": 1
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/319/1934763191/1934763191.jpg",
+                "price": {
+                  "list": 16800
+                }
+              },
+              {
+                "productId": 1987694186,
+                "gender": "F",
+                "type": 1,
+                "title": "요요 유넥 라운드 크롭 니트",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "gifteabox"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010205"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 28
+                },
+                "score": {
+                  "hoursSold": 1
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/418/1987694186/1987694186.jpg",
+                "price": {
+                  "list": 22800
+                }
+              },
+              {
+                "productId": 1997262347,
+                "gender": "F",
+                "type": 1,
+                "title": "펌킨 도톰하고 루즈한 라운드넥 니트",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "gifteabox"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010205"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 15
+                },
+                "score": {
+                  "hoursSold": 1
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/234/1997262347/1997262347.jpg",
+                "price": {
+                  "list": 24500
+                }
+              }
+            ],
+            "name": "기프티박스",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "17urn029gq05",
+        "gaTitle": "20220111_17urn029gq05_저스트원_티셔츠/원피스/팬츠 제작 판매",
+        "bannerAttach": null,
+        "title": "저스트원 80% 겨울신상 베스트셀러",
+        "subTitle": "티셔츠/원피스/팬츠 제작 판매",
+        "template": "tabList",
+        "fontColor": null,
+        "themeColor": null,
+        "slideBarType": null,
+        "isMoreView": null,
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "pageUnit": null,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "productId": 1991265484,
+                "gender": "F",
+                "type": 1,
+                "title": "토탈 양털 롱 더플코트",
+                "isOfficialMall": true,
+                "partner": {
+                  "id": "wmpp19213"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "chg_dt": 1610344519,
+                  "name": "저스트원",
+                  "id": 61669,
+                  "nameText": "저스트원"
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "stockQuantity": {
+                  "sold": 1
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/548/1991265484/1991265484.jpg",
+                "price": {
+                  "list": 81900
+                }
+              },
+              {
+                "productId": 1976903745,
+                "gender": "F",
+                "type": 1,
+                "title": "더런 반목 스트링 하프패딩",
+                "isOfficialMall": true,
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp19213"
+                },
+                "brand": {
+                  "chg_dt": 1610344519,
+                  "name": "저스트원",
+                  "id": 61669,
+                  "nameText": "저스트원"
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/5/374/1976903745/1976903745.jpg",
+                "price": {
+                  "list": 75900
+                }
+              },
+              {
+                "productId": 1976904733,
+                "gender": "F",
+                "type": 1,
+                "title": "제이 양털안감 자수 하프코트",
+                "isOfficialMall": true,
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp19213"
+                },
+                "brand": {
+                  "chg_dt": 1610344519,
+                  "name": "저스트원",
+                  "id": 61669,
+                  "nameText": "저스트원"
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "stockQuantity": {
+                  "sold": 1
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/3/473/1976904733/1976904733.jpg",
+                "price": {
+                  "list": 113900
+                }
+              },
+              {
+                "productId": 1992213370,
+                "gender": "F",
+                "type": 1,
+                "title": "데이베 하트 루즈핏 롱니트",
+                "isOfficialMall": true,
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp19213"
+                },
+                "brand": {
+                  "chg_dt": 1610344519,
+                  "name": "저스트원",
+                  "id": 61669,
+                  "nameText": "저스트원"
+                },
+                "categoryId": [
+                  "10010205"
+                ],
+                "stockQuantity": {
+                  "sold": 8
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/337/1992213370/1992213370.jpg",
+                "price": {
+                  "list": 24900
+                }
+              },
+              {
+                "productId": 1977891287,
+                "gender": "F",
+                "type": 1,
+                "title": "매터 플리스안감 6온스 숏패딩",
+                "isOfficialMall": true,
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp19213"
+                },
+                "brand": {
+                  "chg_dt": 1610344519,
+                  "name": "저스트원",
+                  "id": 61669,
+                  "nameText": "저스트원"
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "stockQuantity": {
+                  "sold": 1
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/128/1977891287/1977891287.jpg",
+                "price": {
+                  "list": 74900
+                }
+              },
+              {
+                "productId": 1970636653,
+                "gender": "F",
+                "type": 1,
+                "title": "세로퀼팅 극세사퍼 4온스패딩",
+                "isOfficialMall": true,
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp19213"
+                },
+                "brand": {
+                  "chg_dt": 1610344519,
+                  "name": "저스트원",
+                  "id": 61669,
+                  "nameText": "저스트원"
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "stockQuantity": {
+                  "sold": 1
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/3/665/1970636653/1970636653.jpg",
+                "price": {
+                  "list": 98900
+                }
+              },
+              {
+                "productId": 1983869109,
+                "gender": "F",
+                "type": 1,
+                "title": "모리츠 자수 양기모 크롭맨투맨",
+                "isOfficialMall": true,
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp19213"
+                },
+                "brand": {
+                  "chg_dt": 1610344519,
+                  "name": "저스트원",
+                  "id": 61669,
+                  "nameText": "저스트원"
+                },
+                "categoryId": [
+                  "10010204"
+                ],
+                "stockQuantity": {
+                  "sold": 5
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/9/910/1983869109/1983869109.jpg",
+                "price": {
+                  "list": 27900
+                }
+              },
+              {
+                "productId": 1992211458,
+                "gender": "F",
+                "type": 1,
+                "title": "치빌 플리츠 미니원피스",
+                "isOfficialMall": true,
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp19213"
+                },
+                "brand": {
+                  "chg_dt": 1610344519,
+                  "name": "저스트원",
+                  "id": 61669,
+                  "nameText": "저스트원"
+                },
+                "categoryId": [
+                  "10010301"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/8/145/1992211458/1992211458.jpg",
+                "price": {
+                  "list": 54900
+                }
+              },
+              {
+                "productId": 1992210804,
+                "gender": "F",
+                "type": 1,
+                "title": "라디 가이루빠 울 폴라티",
+                "isOfficialMall": true,
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp19213"
+                },
+                "brand": {
+                  "chg_dt": 1610344519,
+                  "name": "저스트원",
+                  "id": 61669,
+                  "nameText": "저스트원"
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "stockQuantity": {
+                  "sold": 1
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/080/1992210804/1992210804.jpg",
+                "price": {
+                  "list": 22900
+                }
+              },
+              {
+                "productId": 1992214394,
+                "gender": "F",
+                "type": 1,
+                "title": "로치 이중직기모 사선절개 배기진",
+                "isOfficialMall": true,
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp19213"
+                },
+                "brand": {
+                  "chg_dt": 1610344519,
+                  "name": "저스트원",
+                  "id": 61669,
+                  "nameText": "저스트원"
+                },
+                "categoryId": [
+                  "10010400"
+                ],
+                "stockQuantity": {
+                  "sold": 30
+                },
+                "score": {
+                  "hoursSold": 3
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/439/1992214394/1992214394.jpg",
+                "price": {
+                  "list": 37900
+                }
+              }
+            ],
+            "name": "저스트원",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "18c176i87404",
+        "gaTitle": "20220120_18c176i87404_다온샵 _따스한 기모팬츠/겨울아우터 외",
+        "title": "다온샵 최대 55% 할인",
+        "subTitle": "따스한 기모팬츠/겨울아우터 외",
+        "template": "tabList",
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "productId": 1997125337,
+                "gender": "F",
+                "type": 1,
+                "title": "랜덤박스 4900",
+                "partner": {
+                  "id": "wmpp72638"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": 89107
+                },
+                "categoryId": [
+                  "10010400"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 39
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "review": {
+                  "average": 5,
+                  "textCount": 1
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/533/1997125337/1997125337.jpg",
+                "price": {
+                  "list": 4900
+                }
+              },
+              {
+                "productId": 1939849324,
+                "gender": "F",
+                "type": 1,
+                "title": "인절미구제기모스키니",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp72638"
+                },
+                "brand": {
+                  "id": 89107
+                },
+                "categoryId": [
+                  "10010402"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 79
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/932/1939849324/1939849324.jpg",
+                "price": {
+                  "list": 19900
+                }
+              },
+              {
+                "productId": 1925559545,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 571
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "쫀득기모코튼부츠컷",
+                "score": {
+                  "hoursSold": -3
+                },
+                "partner": {
+                  "id": "wmpp72638"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": 89107
+                },
+                "categoryId": [
+                  "10010400"
+                ],
+                "isCoupon": true,
+                "review": {
+                  "average": 3.2,
+                  "textCount": 5
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/5/954/1925559545/1925559545.jpg",
+                "price": {
+                  "list": 18900
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 3157
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "기모플리츄일자팬츠",
+                "score": {
+                  "clickCount": 135,
+                  "weeklyClick": 32,
+                  "todayClick": 39,
+                  "weeklySold": 1,
+                  "msrFinalScore": 366082,
+                  "dailyClick": 35,
+                  "dailySold": 1,
+                  "msrAt": 1605510000,
+                  "hoursSold": 2,
+                  "todaySold": 2
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "review": {
+                  "average": 4.2,
+                  "textCount": 102,
+                  "photoCount": 4
+                },
+                "brand": {
+                  "chg_dt": null,
+                  "name": null,
+                  "id": 89107
+                },
+                "isCoupon": true,
+                "productId": 247796906,
+                "partner": {
+                  "id": "wmpp72638"
+                },
+                "categoryId": [
+                  "10010400"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/690/247796906/247796906.jpg",
+                "price": {
+                  "list": 21900
+                }
+              },
+              {
+                "productId": 1969633070,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 255
+                },
+                "type": 1,
+                "title": "직원강추기모조거set",
+                "score": {
+                  "hoursSold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp72638"
+                },
+                "brand": {
+                  "id": 89107
+                },
+                "categoryId": [
+                  "10010406"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "review": {
+                  "average": 4.8,
+                  "textCount": 5
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/307/1969633070/1969633070.jpg",
+                "price": {
+                  "list": 18900
+                }
+              },
+              {
+                "productId": 1997129108,
+                "gender": "F",
+                "type": 1,
+                "title": "(롱 숏ver)앗뜨거융기모슬랙스",
+                "partner": {
+                  "id": "wmpp72638"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": 89107
+                },
+                "categoryId": [
+                  "10010400"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 63
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/8/910/1997129108/1997129108.jpg",
+                "price": {
+                  "list": 19900
+                }
+              },
+              {
+                "productId": 1997131529,
+                "gender": "F",
+                "type": 1,
+                "title": "기모델루나롱슬랙스",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp72638"
+                },
+                "brand": {
+                  "id": 89107
+                },
+                "categoryId": [
+                  "10010400"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 76
+                },
+                "score": {
+                  "hoursSold": 4
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/9/152/1997131529/1997131529.jpg",
+                "price": {
+                  "list": 26900
+                }
+              },
+              {
+                "productId": 1997133060,
+                "gender": "F",
+                "type": 1,
+                "title": "따뜻해이중밍크풀커버밴딩",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp72638"
+                },
+                "brand": {
+                  "id": 89107
+                },
+                "categoryId": [
+                  "10010402"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 67
+                },
+                "score": {
+                  "hoursSold": 1
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/306/1997133060/1997133060.jpg",
+                "price": {
+                  "list": 26900
+                }
+              },
+              {
+                "productId": 1943703864,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 148
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "온도플러스이중밍크스키니",
+                "score": {
+                  "hoursSold": null
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp72638"
+                },
+                "brand": {
+                  "id": 89107
+                },
+                "categoryId": [
+                  "10010400"
+                ],
+                "isCoupon": true,
+                "review": {
+                  "average": 4.3,
+                  "textCount": 3
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/386/1943703864/1943703864.jpg",
+                "price": {
+                  "list": 25900
+                }
+              },
+              {
+                "productId": 1997132629,
+                "gender": "F",
+                "type": 1,
+                "title": "체온상승후끈융털스키니",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp72638"
+                },
+                "brand": {
+                  "id": 89107
+                },
+                "categoryId": [
+                  "10010402"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 47
+                },
+                "score": {
+                  "hoursSold": 2
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/9/262/1997132629/1997132629.jpg",
+                "price": {
+                  "list": 26900
+                }
+              }
+            ],
+            "name": "다온샵",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "189ajv29v606",
+        "gaTitle": "20220119_189ajv29v606_쇼인더룸_최대 60% 세일",
+        "title": "쇼인더룸 겨울 기모 상하SET 외",
+        "subTitle": "최대 60% 세일",
+        "template": "tabList",
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "productId": 1972573543,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 42
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "쇼인더룸 컬러링방글 양털 맨투맨",
+                "score": {
+                  "hoursSold": null
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp42169"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/3/354/1972573543/1972573543.jpg",
+                "price": {
+                  "list": 12900
+                }
+              },
+              {
+                "productId": 1985472160,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 27
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "쇼인더룸 비엘 폴라넥 니트",
+                "score": {
+                  "hoursSold": null
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp42169"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/216/1985472160/1985472160.jpg",
+                "price": {
+                  "list": 9900
+                }
+              },
+              {
+                "productId": 1982836684,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 20
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "쇼인더룸 벌집 라운드니트",
+                "score": {
+                  "hoursSold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp42169"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/668/1982836684/1982836684.jpg",
+                "price": {
+                  "list": 9900
+                }
+              },
+              {
+                "productId": 1949303533,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 9
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "쇼인더룸 엔리트 터틀넥 기모티셔츠",
+                "score": {
+                  "hoursSold": null
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp42169"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/3/353/1949303533/1949303533.jpg",
+                "price": {
+                  "list": 7900
+                }
+              },
+              {
+                "productId": 1982836752,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 122
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "쇼인더룸 샬루트 가디건",
+                "score": {
+                  "hoursSold": 0
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp42169"
+                },
+                "review": {
+                  "average": 4,
+                  "textCount": 2
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/2/675/1982836752/1982836752.jpg",
+                "price": {
+                  "list": 9900
+                }
+              },
+              {
+                "productId": 1969350283,
+                "gender": "F",
+                "type": 1,
+                "title": "쇼인더룸 댄버 후드 맨투맨",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp42169"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "stockQuantity": {
+                  "sold": 5
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/3/028/1969350283/1969350283.jpg",
+                "price": {
+                  "list": 11900
+                }
+              },
+              {
+                "productId": 2004658894,
+                "gender": "F",
+                "type": 1,
+                "title": "쇼인더룸 비숑 크롭세트",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp42169"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/889/2004658894/2004658894.jpg",
+                "price": {
+                  "list": 17900
+                }
+              },
+              {
+                "productId": 2004658796,
+                "gender": "F",
+                "type": 1,
+                "title": "쇼인더룸 하프마린 니트조끼",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp42169"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/879/2004658796/2004658796.jpg",
+                "price": {
+                  "list": 11900
+                }
+              },
+              {
+                "productId": 2004658701,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 1
+                },
+                "type": 1,
+                "title": "쇼인더룸 피셔크롭 니트조끼",
+                "score": {
+                  "hoursSold": null
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp42169"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/870/2004658701/2004658701.jpg",
+                "price": {
+                  "list": 9900
+                }
+              },
+              {
+                "productId": 2004658651,
+                "gender": "F",
+                "type": 1,
+                "title": "쇼인더룸 퍼플릭 하이넥 티셔츠",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp42169"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 5
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/865/2004658651/2004658651.jpg",
+                "price": {
+                  "list": 6900
+                }
+              }
+            ],
+            "name": "쇼인더룸",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "18amna28eq01",
+        "gaTitle": "20220120_18amna28eq01_라리리_최대 10% 할인",
+        "title": "라리리 신상 홈웨어/파자마",
+        "subTitle": "최대 10% 할인",
+        "template": "tabList",
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "productId": 1922684937,
+                "type": 1,
+                "title": "라리리 귀염보들 악어몽 수면 상하세트 파자마",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "lucky6639"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10050000",
+                  "20050400"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 128
+                },
+                "score": {
+                  "hoursSold": 1
+                },
+                "review": {
+                  "average": 4.5,
+                  "textCount": 2
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/493/1922684937/1922684937.jpg",
+                "price": {
+                  "list": 14800
+                }
+              },
+              {
+                "productId": 1922421695,
+                "type": 1,
+                "title": "라리리 귀염보들 레빗몽 수면 상하세트 파자마",
+                "partner": {
+                  "id": "lucky6639"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10050000",
+                  "20050400"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 28
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "review": {
+                  "average": 4,
+                  "textCount": 2
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/5/169/1922421695/1922421695.jpg",
+                "price": {
+                  "list": 14800
+                }
+              },
+              {
+                "productId": 1922420176,
+                "stockQuantity": {
+                  "sold": 260
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "라리리 귀염보들 베어체크 블랙 수면 상하세트 파자마",
+                "score": {
+                  "hoursSold": 5
+                },
+                "partner": {
+                  "id": "lucky6639"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10050000",
+                  "20050400"
+                ],
+                "isCoupon": true,
+                "review": {
+                  "average": 4.5,
+                  "textCount": 2
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/017/1922420176/1922420176.jpg",
+                "price": {
+                  "list": 14800
+                }
+              },
+              {
+                "productId": 1922420686,
+                "stockQuantity": {
+                  "sold": 202
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "라리리 귀염보들 베어체크 핑크 수면 상하세트 파자마",
+                "score": {
+                  "hoursSold": null
+                },
+                "partner": {
+                  "id": "lucky6639"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10050000",
+                  "20050400"
+                ],
+                "isCoupon": true,
+                "review": {
+                  "average": 4,
+                  "textCount": 2
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/068/1922420686/1922420686.jpg",
+                "price": {
+                  "list": 14800
+                }
+              },
+              {
+                "productId": 1997821114,
+                "type": 1,
+                "title": "라리리 귀염보들 심플블랙 수면 상하세트 파자마",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "lucky6639"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10050000",
+                  "20050400"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 18
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/111/1997821114/1997821114.jpg",
+                "price": {
+                  "list": 12800
+                }
+              },
+              {
+                "productId": 1922689371,
+                "type": 1,
+                "title": "라리리 귀염보들 푸푸 수면 상하세트 파자마",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "lucky6639"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10050000",
+                  "20050400"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 137
+                },
+                "score": {
+                  "hoursSold": null
+                },
+                "review": {
+                  "average": 4,
+                  "textCount": 3
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/937/1922689371/1922689371.jpg",
+                "price": {
+                  "list": 15800
+                }
+              },
+              {
+                "productId": 1938968048,
+                "type": 1,
+                "title": "라리리 귀염보들 체크덕 수면 상하세트 파자마",
+                "partner": {
+                  "id": "lucky6639"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10050000",
+                  "20050400"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 188
+                },
+                "score": {
+                  "hoursSold": 1
+                },
+                "review": {
+                  "average": 4,
+                  "textCount": 1
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/8/804/1938968048/1938968048.jpg",
+                "price": {
+                  "list": 14800
+                }
+              },
+              {
+                "productId": 1977180768,
+                "stockQuantity": {
+                  "sold": 47
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "라리리 귀염보들 테디수면 상하세트 파자마 3컬러",
+                "score": {
+                  "hoursSold": null
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "lucky6639"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10050000",
+                  "20050400"
+                ],
+                "isCoupon": true,
+                "review": {
+                  "average": 4,
+                  "textCount": 1
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/8/076/1977180768/1977180768.jpg",
+                "price": {
+                  "list": 16800
+                }
+              },
+              {
+                "productId": 1933829166,
+                "stockQuantity": {
+                  "sold": 235
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "라리리 귀염보들 스트링 3종 수면 상하세트 파자마",
+                "score": {
+                  "hoursSold": null
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "lucky6639"
+                },
+                "review": {
+                  "average": 4.7,
+                  "textCount": 3
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10050000",
+                  "20050400"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/916/1933829166/1933829166.jpg",
+                "price": {
+                  "list": 15800
+                }
+              },
+              {
+                "productId": 1933836558,
+                "stockQuantity": {
+                  "sold": 212
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "라리리 귀염보들 버튼 3종 수면 상하세트 파자마",
+                "score": {
+                  "hoursSold": null
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "lucky6639"
+                },
+                "review": {
+                  "average": 3,
+                  "textCount": 1
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10050000",
+                  "20050400"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/8/655/1933836558/1933836558.jpg",
+                "price": {
+                  "list": 15800
+                }
+              }
+            ],
+            "name": "라리리",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "15tt8fi92g02",
+        "gaTitle": "20211122_15tt8fi92g02_아우터_추위도 막고 스타일까지 업!",
+        "bannerAttach": null,
+        "title": "따뜻한 겨울 아우터 코디",
+        "subTitle": "추위도 막고 스타일까지 업!",
+        "template": "tabList",
+        "fontColor": null,
+        "themeColor": null,
+        "slideBarType": null,
+        "isMoreView": null,
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "pageUnit": null,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "productId": 1934718115,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 197
+                },
+                "type": 1,
+                "title": "여성 경량패딩 누빔 패딩 점퍼 자켓 코트 빅사이즈",
+                "score": {
+                  "hoursSold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "jiaen2021"
+                },
+                "review": {
+                  "average": 4,
+                  "textCount": 6
+                },
+                "brand": {
+                  "chg_dt": 1637566864,
+                  "name": "MD의촉!",
+                  "id": 121655,
+                  "nameText": "MD의촉!"
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "isDiscount": false,
+                "isCoupon": false,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/5/811/1934718115/1934718115.jpg",
+                "price": {
+                  "list": 16900,
+                  "discountRate": 23
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 56
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[P26] 여성 숏 패딩",
+                "score": {
+                  "weeklyClick": 132,
+                  "todayClick": 20,
+                  "weeklySold": 3,
+                  "msrFinalScore": 274451,
+                  "dailyClick": 25,
+                  "msrAt": 1605517200,
+                  "dailySold": 3,
+                  "hoursSold": null,
+                  "todaySold": 3
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "review": {
+                  "average": 4.5,
+                  "textCount": 2
+                },
+                "brand": {
+                  "chg_dt": 1573718964,
+                  "name": "호랑이부부",
+                  "id": 99703,
+                  "nameText": "호랑이부부"
+                },
+                "isCoupon": true,
+                "productId": 366368989,
+                "partner": {
+                  "id": "horangibubu"
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/9/898/366368989/366368989.jpg",
+                "price": {
+                  "list": 29900,
+                  "discountRate": 29
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 159
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "프리미엄 숏패딩(브라운)",
+                "score": {
+                  "weeklyClick": 1,
+                  "todayClick": 3,
+                  "weeklySold": 1,
+                  "msrFinalScore": 3598,
+                  "dailyClick": 1,
+                  "msrAt": 1581606000,
+                  "dailySold": 1,
+                  "hoursSold": 1,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "review": {
+                  "average": 4.7,
+                  "textCount": 6
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": false,
+                "productId": 390010677,
+                "partner": {
+                  "id": "stcompany1"
+                },
+                "categoryId": [
+                  "10010106"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/067/390010677/390010677.jpg",
+                "price": {
+                  "list": 12800
+                }
+              },
+              {
+                "productId": 1981196266,
+                "gender": "F",
+                "type": 1,
+                "title": "2021신상 아우터 여자아우터 루즈핏",
+                "partner": {
+                  "id": "pani1997"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010102"
+                ],
+                "isDiscount": false,
+                "isCoupon": false,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/626/1981196266/1981196266.jpg",
+                "price": {
+                  "list": 227800
+                }
+              },
+              {
+                "productId": 1905540272,
+                "gender": "F",
+                "type": 1,
+                "title": "[생활꿀템] 후드퍼 가득한 겨울 패션 아우터 안감퍼 보온 코트 여성아우터 퍼아우터",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "shoppingnon"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "isDiscount": false,
+                "isCoupon": false,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/2/027/1905540272/1905540272.jpg",
+                "price": {
+                  "list": 49120,
+                  "discountRate": 1
+                }
+              }
+            ],
+            "name": "아우터",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "n1tvk28bm03",
+        "gaTitle": "20201229_n1tvk28bm03_오늘의 이득쇼핑_매일 바뀌는 아이템, 오늘의 득템찬스",
+        "bannerAttach": null,
+        "title": "오늘의 이득쇼핑",
+        "subTitle": "매일 바뀌는 아이템, 오늘의 득템찬스",
+        "template": "tabList",
+        "fontColor": null,
+        "themeColor": null,
+        "slideBarType": null,
+        "isMoreView": null,
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "pageUnit": null,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 22
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "여성 램스울 후리스 자켓",
+                "score": {
+                  "weeklyClick": 187,
+                  "todayClick": 9,
+                  "weeklySold": 7,
+                  "msrFinalScore": 330235,
+                  "dailyClick": 28,
+                  "msrAt": 1605517200,
+                  "dailySold": 1,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "review": {
+                  "average": 3,
+                  "textCount": 1
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": true,
+                "productId": 390861273,
+                "partner": {
+                  "id": "wmpp33524"
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/3/127/390861273/390861273.jpg",
+                "price": {
+                  "list": 29900
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 34
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "2020년 여성 가을 겨울 신상 하프 기장 빅 사이즈 박시 코쿤 트렌치 코트",
+                "score": {
+                  "weeklyClick": 678,
+                  "todayClick": 49,
+                  "weeklySold": 7,
+                  "msrFinalScore": 368273,
+                  "dailyClick": 89,
+                  "msrAt": 1605517200,
+                  "dailySold": 1,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": true,
+                "productId": 1325021043,
+                "partner": {
+                  "id": "chang626"
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "review": {
+                  "average": 2,
+                  "textCount": 2
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/3/104/1325021043/1325021043.jpg",
+                "price": {
+                  "list": 16300
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 53
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "뽀글이트렌치코트",
+                "score": {
+                  "weeklyClick": 52,
+                  "todayClick": 1,
+                  "weeklySold": 1,
+                  "msrFinalScore": 330839,
+                  "dailyClick": 6,
+                  "msrAt": 1605517200,
+                  "dailySold": 1,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "chg_dt": 1569803061,
+                  "name": "모모사라",
+                  "id": 90827,
+                  "nameText": "모모사라"
+                },
+                "isCoupon": true,
+                "productId": 1373449620,
+                "partner": {
+                  "id": "momosara"
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "review": {
+                  "average": 5,
+                  "textCount": 1
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/962/1373449620/1373449620.jpg",
+                "price": {
+                  "list": 56900,
+                  "discountRate": 8
+                }
+              },
+              {
+                "gender": "F",
+                "type": 1,
+                "title": "남여공용 오리털 점퍼 패딩 다운자켓 후드 숏",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "productId": 1393906292,
+                "partner": {
+                  "id": "wmpp59958"
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "isDiscount": false,
+                "isCoupon": false,
+                "score": {
+                  "todayClick": 8,
+                  "msrFinalScore": 350829,
+                  "msrAt": 1605517200,
+                  "dailyClick": 15,
+                  "weeklyClick": 183,
+                  "hoursSold": null,
+                  "todaySold": 1,
+                  "dailySold": 1,
+                  "weeklySold": 14
+                },
+                "stockQuantity": {
+                  "sold": 48
+                },
+                "review": {
+                  "average": 3,
+                  "textCount": 2
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/2/629/1393906292/1393906292.jpg",
+                "price": {
+                  "list": 36900,
+                  "discountRate": 47
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 83
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "라우드) 어썸무드롱코트",
+                "score": {
+                  "weeklyClick": 193,
+                  "todayClick": 38,
+                  "weeklySold": 1,
+                  "msrFinalScore": 337186,
+                  "dailyClick": 49,
+                  "msrAt": 1605517200,
+                  "dailySold": 1,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": false,
+                "productId": 1404161290,
+                "partner": {
+                  "id": "wmpp50000"
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/129/1404161290/1404161290.jpg",
+                "price": {
+                  "list": 65900
+                }
+              },
+              {
+                "productId": 1339975862,
+                "stockQuantity": {
+                  "sold": 401
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "스파오 플리스 스탠 집업_SPFZA49C07",
+                "score": {
+                  "weeklyClick": 1437,
+                  "todayClick": 138,
+                  "weeklySold": 100,
+                  "msrFinalScore": 484496,
+                  "dailyClick": 271,
+                  "msrAt": 1605517200,
+                  "dailySold": 18,
+                  "hoursSold": null,
+                  "todaySold": 11
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "elandmallapi"
+                },
+                "review": {
+                  "average": 4.7,
+                  "textCount": 9
+                },
+                "brand": {
+                  "name": "스파오",
+                  "id": 84579
+                },
+                "categoryId": [
+                  "10010100",
+                  "20010100"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/2/586/1339975862/1339975862.jpg",
+                "price": {
+                  "list": 12900,
+                  "discountRate": 50
+                }
+              },
+              {
+                "gender": "F",
+                "productId": 326665239,
+                "stockQuantity": {
+                  "sold": 2403
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "라우드) 런던하프울코트",
+                "score": {
+                  "weeklyClick": 3723,
+                  "clickCount": 397,
+                  "todayClick": 100,
+                  "weeklySold": 29,
+                  "msrFinalScore": 439496,
+                  "dailyClick": 136,
+                  "naverCategoryMain": 1,
+                  "msrAt": 1605517200,
+                  "dailySold": 4,
+                  "hoursSold": null,
+                  "todaySold": 5
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp50000"
+                },
+                "review": {
+                  "average": 4.3,
+                  "textCount": 113,
+                  "photoCount": 9
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010105"
+                ],
+                "isCoupon": false,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/9/523/326665239/326665239.jpg",
+                "price": {
+                  "list": 62900
+                }
+              },
+              {
+                "gender": "F",
+                "productId": 1353548464,
+                "stockQuantity": {
+                  "sold": 2874
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[런칭가79,000원] 울 블렌디드 본딩 슬랙스 팬츠 2종 MN194F0205PT",
+                "score": {
+                  "weeklyClick": 1235,
+                  "todayClick": 62,
+                  "weeklySold": 48,
+                  "msrFinalScore": 430432,
+                  "dailyClick": 141,
+                  "msrAt": 1605510000,
+                  "dailySold": 5,
+                  "hoursSold": 4,
+                  "todaySold": 2
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "style0758"
+                },
+                "review": {
+                  "average": 3.8,
+                  "textCount": 78
+                },
+                "brand": {
+                  "id": 95769
+                },
+                "categoryId": [
+                  "10010403"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/846/1353548464/1353548464.jpg",
+                "price": {
+                  "list": 19900,
+                  "discountRate": 75
+                }
+              }
+            ],
+            "name": "오늘의 이득쇼핑",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "npuoq29d403",
+        "gaTitle": "20201217_npuoq29d403_러블리하고 힙-한 원피스",
+        "bannerAttach": null,
+        "title": "러블리하고 힙-한 원피스",
+        "subTitle": null,
+        "template": "tabList",
+        "fontColor": null,
+        "themeColor": null,
+        "slideBarType": null,
+        "isMoreView": null,
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "pageUnit": null,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 79
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "카브라 니트 롱 원피스(2color)",
+                "score": {
+                  "weeklyClick": 153,
+                  "todayClick": 15,
+                  "weeklySold": 3,
+                  "msrFinalScore": 343933,
+                  "dailyClick": 24,
+                  "msrAt": 1605517200,
+                  "dailySold": 2,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "review": {
+                  "average": 4.2,
+                  "textCount": 5
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": false,
+                "productId": 1319032489,
+                "partner": {
+                  "id": "wonscpn"
+                },
+                "categoryId": [
+                  "10010301"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/9/248/1319032489/1319032489.jpg",
+                "price": {
+                  "list": 38800
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 197
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "가을 겨울 간절기 캐시미어 숄 머플러 캐시숄 니트 가디건",
+                "score": {
+                  "weeklyClick": 874,
+                  "todayClick": 40,
+                  "weeklySold": 13,
+                  "msrFinalScore": 355544,
+                  "dailyClick": 106,
+                  "msrAt": 1603018800,
+                  "dailySold": 1,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "review": {
+                  "average": 2,
+                  "textCount": 7
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": false,
+                "productId": 1288913279,
+                "partner": {
+                  "id": "wonscpn"
+                },
+                "categoryId": [
+                  "10010301"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/9/327/1288913279/1288913279.jpg",
+                "price": {
+                  "list": 32010,
+                  "discountRate": 10
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 10
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "바바 꽈배기 롱 니트원피스",
+                "score": {
+                  "weeklyClick": 34,
+                  "todayClick": 2,
+                  "msrFinalScore": 218450,
+                  "dailyClick": 3,
+                  "msrAt": 1605517200,
+                  "hoursSold": 0,
+                  "todaySold": 1,
+                  "dailySold": 1,
+                  "weeklySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "review": {
+                  "average": 3,
+                  "textCount": 1
+                },
+                "brand": {
+                  "chg_dt": 1563871216,
+                  "name": "쉬즈프리티",
+                  "id": 93532,
+                  "nameText": "쉬즈프리티"
+                },
+                "isCoupon": true,
+                "productId": 390052516,
+                "partner": {
+                  "id": "shespretty73"
+                },
+                "categoryId": [
+                  "10010301"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/251/390052516/390052516.jpg",
+                "price": {
+                  "list": 27900
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 86
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "로빈 루즈핏 벨트세트 폴라 반하이넥 퍼프소매 프릴 니트 롱 원피스(블랙)",
+                "score": {
+                  "weeklyClick": 68,
+                  "todayClick": 19,
+                  "weeklySold": 1,
+                  "msrFinalScore": 26106,
+                  "dailyClick": 28,
+                  "msrAt": 1605517200,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": false,
+                "productId": 1372763671,
+                "partner": {
+                  "id": "wonscpn"
+                },
+                "categoryId": [
+                  "10010301"
+                ],
+                "review": {
+                  "average": 5,
+                  "textCount": 1
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/367/1372763671/1372763671.jpg",
+                "price": {
+                  "list": 39800
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 38
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "고은 골지 브이넥 가을 겨울 니트 롱 원피스(네이비,브라운,연베이지)",
+                "score": {
+                  "weeklyClick": 71,
+                  "todayClick": 12,
+                  "weeklySold": 1,
+                  "msrFinalScore": 23996,
+                  "dailyClick": 9,
+                  "msrAt": 1605517200,
+                  "dailySold": 1,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": false,
+                "productId": 1375522839,
+                "partner": {
+                  "id": "wonscpn"
+                },
+                "categoryId": [
+                  "10010301"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/9/283/1375522839/1375522839.jpg",
+                "price": {
+                  "list": 47100
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 192
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "제니 골지니트 레이어드 쉬 폰롱 원피스",
+                "score": {
+                  "weeklyClick": 91,
+                  "todayClick": 5,
+                  "weeklySold": 1,
+                  "msrFinalScore": 23074,
+                  "dailyClick": 13,
+                  "msrAt": 1605517200,
+                  "dailySold": 1,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": false,
+                "productId": 1297298695,
+                "partner": {
+                  "id": "wonscpn"
+                },
+                "categoryId": [
+                  "10010301"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/5/869/1297298695/1297298695.jpg",
+                "price": {
+                  "list": 41500
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 3
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "여성 가을 니트 롱 원피스 목폴라 슬림핏 데일리nbb85",
+                "score": {
+                  "weeklyClick": 34,
+                  "todayClick": 7,
+                  "msrFinalScore": 221139,
+                  "dailyClick": 3,
+                  "msrAt": 1605517200,
+                  "dailySold": 1,
+                  "hoursSold": null,
+                  "todaySold": 1,
+                  "weeklySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": true,
+                "productId": 1353390498,
+                "partner": {
+                  "id": "915bingo"
+                },
+                "categoryId": [
+                  "10010301"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/8/049/1353390498/1353390498.jpg",
+                "price": {
+                  "list": 29400
+                }
+              },
+              {
+                "gender": "F",
+                "type": 1,
+                "title": "[하프클럽]텐퍼센트 돈느 루즈핏 터틀 폴라넥 퍼프 니트 미니 원피스_P089927605",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "productId": 1442344867,
+                "partner": {
+                  "id": "half1234"
+                },
+                "categoryId": [
+                  "10010301"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "score": {
+                  "todayClick": 2,
+                  "msrFinalScore": 15182,
+                  "msrAt": 1605517200
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/486/1442344867/1442344867.jpg",
+                "price": {
+                  "list": 73910,
+                  "discountRate": 22
+                }
+              }
+            ],
+            "name": "ONEPIECE",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "v4nrv289g02",
+        "gaTitle": "20210611_v4nrv289g02_슬랙스_스타일과 활동성이 보장되는 아이템",
+        "bannerAttach": null,
+        "title": "누가 입어도 완벽한 핏 슬랙스",
+        "subTitle": "스타일과 활동성이 보장되는 아이템",
+        "template": "tabList",
+        "fontColor": null,
+        "themeColor": null,
+        "slideBarType": null,
+        "isMoreView": null,
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "pageUnit": null,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 2
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "제리 베이직 와이드 일자핏 롱 슬랙스",
+                "isOfficialMall": true,
+                "score": {
+                  "todayClick": 11,
+                  "msrFinalScore": 362036,
+                  "msrAt": 1604242800,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": false,
+                "productId": 1311250122,
+                "partner": {
+                  "id": "wf000wonder"
+                },
+                "categoryId": [
+                  "10010403"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/2/012/1311250122/1311250122.jpg",
+                "price": {
+                  "list": 34900,
+                  "discountRate": 13
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 488
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[ 1+1 ] 울 니트 단가라 양말 8color [국내생산] 포근포근 겨울 니트삭스",
+                "score": {
+                  "weeklyClick": 164,
+                  "todayClick": 9,
+                  "weeklySold": 10,
+                  "msrFinalScore": 360262,
+                  "dailyClick": 32,
+                  "msrAt": 1605510000,
+                  "dailySold": 3,
+                  "hoursSold": null,
+                  "todaySold": 2
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": false,
+                "productId": 1321846793,
+                "partner": {
+                  "id": "syum1476"
+                },
+                "categoryId": [
+                  "10010400"
+                ],
+                "review": {
+                  "average": 3.8,
+                  "textCount": 11
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/3/679/1321846793/1321846793.jpg",
+                "price": {
+                  "list": 8900
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 52
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[토마토팩토리] 기모 슬랙스 와이드 롱 슬렉스 여성 여자 정장바지 정장팬츠 바지 팬츠 겨울 와이드 부츠컷 기모바지 롱기장 스판",
+                "score": {
+                  "weeklyClick": 134,
+                  "todayClick": 14,
+                  "weeklySold": 2,
+                  "msrFinalScore": 366575,
+                  "dailyClick": 5,
+                  "msrAt": 1605510000,
+                  "dailySold": 1,
+                  "hoursSold": null,
+                  "todaySold": 2
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "chg_dt": 1569831642,
+                  "name": "토마토팩토리",
+                  "id": 97518,
+                  "nameText": "토마토팩토리"
+                },
+                "isCoupon": true,
+                "productId": 478581998,
+                "partner": {
+                  "id": "tomato22"
+                },
+                "categoryId": [
+                  "10010403"
+                ],
+                "review": {
+                  "average": 5,
+                  "textCount": 1
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/8/199/478581998/478581998.jpg",
+                "price": {
+                  "list": 18900
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 1064
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[기간한정] 여성 롱기장 편해요 스판밴드 팬츠 슬랙스 1713",
+                "score": {
+                  "weeklyClick": 238,
+                  "clickCount": 222,
+                  "todayClick": 8,
+                  "weeklySold": 17,
+                  "msrFinalScore": 387572,
+                  "dailyClick": 23,
+                  "msrAt": 1605510000,
+                  "dailySold": 2,
+                  "hoursSold": 1,
+                  "todaySold": 2
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "review": {
+                  "average": 3.4,
+                  "textCount": 30
+                },
+                "brand": {
+                  "chg_dt": 1560902734,
+                  "name": "가비진",
+                  "id": 88031,
+                  "nameText": "가비진"
+                },
+                "isCoupon": true,
+                "productId": 392892076,
+                "partner": {
+                  "id": "jgcompany70"
+                },
+                "categoryId": [
+                  "10010403"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/207/392892076/392892076.jpg",
+                "price": {
+                  "list": 10900
+                }
+              },
+              {
+                "gender": "F",
+                "productId": 1353548464,
+                "stockQuantity": {
+                  "sold": 2874
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[런칭가79,000원] 울 블렌디드 본딩 슬랙스 팬츠 2종 MN194F0205PT",
+                "score": {
+                  "weeklyClick": 1235,
+                  "todayClick": 62,
+                  "weeklySold": 48,
+                  "msrFinalScore": 430432,
+                  "dailyClick": 141,
+                  "msrAt": 1605510000,
+                  "dailySold": 5,
+                  "hoursSold": 4,
+                  "todaySold": 2
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "style0758"
+                },
+                "review": {
+                  "average": 3.8,
+                  "textCount": 78
+                },
+                "brand": {
+                  "id": 95769
+                },
+                "categoryId": [
+                  "10010403"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/846/1353548464/1353548464.jpg",
+                "price": {
+                  "list": 19900,
+                  "discountRate": 75
+                }
+              },
+              {
+                "gender": "F",
+                "productId": 132851700,
+                "stockQuantity": {
+                  "sold": 170
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[토마토팩토리] 히든밴딩 기모슬랙스 / 여성슬랙스 여자슬랙스 슬렉스 기모바지 기모팬츠 빅사이즈슬랙스 밴딩슬랙스",
+                "score": {
+                  "weeklyClick": 354,
+                  "todayClick": 20,
+                  "weeklySold": 20,
+                  "msrFinalScore": 389561,
+                  "dailyClick": 67,
+                  "msrAt": 1605510000,
+                  "dailySold": 2,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "tomato22"
+                },
+                "review": {
+                  "average": 4.3,
+                  "textCount": 3
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010403"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/170/132851700/132851700.jpg",
+                "price": {
+                  "list": 17900
+                }
+              }
+            ],
+            "name": "슬랙스",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "17dnnl28b203",
+        "gaTitle": "20211228_17dnnl28b203_코듀로이_매일 새로운 트렌디한 룩",
+        "bannerAttach": null,
+        "title": "스타일과 포근한 코듀로이룩!",
+        "subTitle": "매일 새로운 트렌디한 룩",
+        "template": "tabList",
+        "fontColor": null,
+        "themeColor": null,
+        "slideBarType": null,
+        "isMoreView": null,
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "pageUnit": null,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "gender": "F",
+                "productId": 1727213662,
+                "stockQuantity": {
+                  "sold": 830
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[최초가 79,000원][1+1]간절기 프랜치 코듀로이 팬츠",
+                "score": {
+                  "hoursSold": null
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp57198"
+                },
+                "review": {
+                  "average": 3.1,
+                  "textCount": 15
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010400"
+                ],
+                "isCoupon": false,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/2/366/1727213662/1727213662.jpg",
+                "price": {
+                  "list": 7900,
+                  "discountRate": 90
+                }
+              },
+              {
+                "gender": "F",
+                "productId": 310973206,
+                "stockQuantity": {
+                  "sold": 752
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "코듀로이 배기팬츠",
+                "score": {
+                  "clickCount": 36,
+                  "weeklyClick": 1,
+                  "todayClick": 33,
+                  "weeklySold": 2,
+                  "msrFinalScore": 0,
+                  "dailyClick": 2,
+                  "naverCategoryMain": 1,
+                  "msrAt": 1595264400,
+                  "dailySold": 2,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "lms76100"
+                },
+                "review": {
+                  "average": 3.9,
+                  "textCount": 16,
+                  "photoCount": 1
+                },
+                "brand": {
+                  "name": "애플망고샵",
+                  "id": 94505
+                },
+                "categoryId": [
+                  "10010400"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/320/310973206/310973206.jpg",
+                "price": {
+                  "list": 24900
+                }
+              },
+              {
+                "productId": 376449447,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 482
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[시크릿라벨] 하이웨스트밴딩코듀로이팬츠",
+                "score": {
+                  "weeklyClick": 12,
+                  "clickCount": 35,
+                  "todayClick": 7,
+                  "weeklySold": 25,
+                  "msrFinalScore": 10791,
+                  "dailyClick": 1,
+                  "naverCategoryMain": 1,
+                  "msrAt": 1605373200,
+                  "dailySold": 3,
+                  "hoursSold": null,
+                  "todaySold": 3
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp74834"
+                },
+                "review": {
+                  "average": 4.2,
+                  "textCount": 27,
+                  "photoCount": 1
+                },
+                "brand": {
+                  "id": 47274
+                },
+                "categoryId": [
+                  "10010401"
+                ],
+                "isCoupon": false,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/944/376449447/376449447.jpg",
+                "price": {
+                  "list": 35000
+                }
+              },
+              {
+                "productId": 1909777821,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 496
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "코트루 코듀로이 조거 밴딩 PT_MNPS167__",
+                "score": {
+                  "hoursSold": null
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "atude"
+                },
+                "review": {
+                  "average": 3.3,
+                  "textCount": 7
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010400"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/782/1909777821/1909777821.jpg",
+                "price": {
+                  "list": 11900,
+                  "discountRate": 75
+                }
+              },
+              {
+                "productId": 1924684904,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 494
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "포근한 코듀로이 뒷밴딩 팬츠",
+                "score": {
+                  "hoursSold": null
+                },
+                "partner": {
+                  "id": "wmpp66311"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "review": {
+                  "average": 4.4,
+                  "textCount": 5
+                },
+                "brand": {
+                  "name": "루나진",
+                  "id": 101633
+                },
+                "categoryId": [
+                  "10010400"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/4/490/1924684904/1924684904.jpg",
+                "price": {
+                  "list": 14900,
+                  "discountRate": 50
+                }
+              },
+              {
+                "productId": 1728232616,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 420
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[최초가 79,000원][1+1]간절기 프랜치 코듀로이 팬츠",
+                "score": {
+                  "hoursSold": 6
+                },
+                "partner": {
+                  "id": "wmpp57198"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "review": {
+                  "average": 3.4,
+                  "textCount": 10
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010400"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/261/1728232616/1728232616.jpg",
+                "price": {
+                  "list": 7900,
+                  "discountRate": 90
+                }
+              }
+            ],
+            "name": "코듀로이",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "18am5hi9jm03",
+        "gaTitle": "20220119_18am5hi9jm03_제로의옷장_특급할인 니트/원피스/데일리룩 외",
+        "title": "제로의옷장 최대 60% 겨울시즌오프",
+        "subTitle": "특급할인 니트/원피스/데일리룩 외",
+        "template": "tabList",
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 4
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "한정수량 빈스 퍼 패딩 OT1105N01",
+                "score": {
+                  "hoursSold": null
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": true,
+                "productId": 1495462476,
+                "partner": {
+                  "id": "asia5002"
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/247/1495462476/1495462476.jpg",
+                "price": {
+                  "list": 165500
+                }
+              },
+              {
+                "productId": 1986633203,
+                "gender": "F",
+                "type": 1,
+                "title": "에코 밍크 퍼 카라 자켓 SMOT1223Y03",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "asia5002"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "stockQuantity": {
+                  "sold": 14
+                },
+                "score": {
+                  "hoursSold": 1
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/3/320/1986633203/1986633203.jpg",
+                "price": {
+                  "list": 54500
+                }
+              },
+              {
+                "productId": 1997119560,
+                "gender": "F",
+                "type": 1,
+                "title": "⚡베스트NO.01⚡기모 무지 맨투맨 조거팬츠 세트 SMST0922Y06",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "asia5002"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010406"
+                ],
+                "stockQuantity": {
+                  "sold": 76
+                },
+                "score": {
+                  "hoursSold": 2
+                },
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/956/1997119560/1997119560.jpg",
+                "price": {
+                  "list": 27900
+                }
+              },
+              {
+                "productId": 2005403870,
+                "gender": "F",
+                "type": 1,
+                "title": "한정수량 해리 폭스 퍼패딩 OT1109N06",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "asia5002"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/387/2005403870/2005403870.jpg",
+                "price": {
+                  "list": 179000
+                }
+              },
+              {
+                "productId": 1910763032,
+                "gender": "F",
+                "type": 1,
+                "title": "한정수량 건빵 뽀글이 하이넥 집업 점퍼 SMOT1001Y05",
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "asia5002"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "isDiscount": false,
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/2/303/1910763032/1910763032.jpg",
+                "price": {
+                  "list": 69900
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 4
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "한정수량 루시 퍼 패딩 OT1117N03",
+                "score": {
+                  "hoursSold": null
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": true,
+                "productId": 1447223036,
+                "partner": {
+                  "id": "asia5002"
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/303/1447223036/1447223036.jpg",
+                "price": {
+                  "list": 129900
+                }
+              },
+              {
+                "productId": 2009846528,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 2
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "한정수량 포근해 배색 니트 가디건 SMGD0823A07",
+                "score": {
+                  "hoursSold": 0
+                },
+                "partner": {
+                  "id": "asia5002"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010101"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/8/652/2009846528/2009846528.jpg",
+                "price": {
+                  "list": 27500
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 24
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "당일출고 몽크 퍼 후드집업 점퍼MZGA1118A08",
+                "score": {
+                  "hoursSold": null
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": true,
+                "productId": 1589489075,
+                "partner": {
+                  "id": "asia5002"
+                },
+                "categoryId": [
+                  "10010103"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/5/907/1589489075/1589489075.jpg",
+                "price": {
+                  "list": 69500
+                }
+              },
+              {
+                "productId": 1979229147,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 70
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "어나더 크롭 기모 맨투맨 티셔츠 SMTS1216A05",
+                "score": {
+                  "hoursSold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "asia5002"
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/914/1979229147/1979229147.jpg",
+                "price": {
+                  "list": 29900
+                }
+              },
+              {
+                "productId": 1997346786,
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 106
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "한정수량 미유 기모 트레이닝 세트 ST1229H10",
+                "score": {
+                  "hoursSold": -3
+                },
+                "partner": {
+                  "id": "asia5002"
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010406"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/678/1997346786/1997346786.jpg",
+                "price": {
+                  "list": 33500
+                }
+              }
+            ],
+            "name": "제로의옷장",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "npuk129s601",
+        "gaTitle": "20201218_npuk129s601_실패 없는 이너 BEST",
+        "bannerAttach": null,
+        "title": "실패 없는 이너 BEST",
+        "subTitle": null,
+        "template": "tabList",
+        "fontColor": null,
+        "themeColor": null,
+        "slideBarType": null,
+        "isMoreView": null,
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "pageUnit": null,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "gender": "F",
+                "productId": 716610340,
+                "stockQuantity": {
+                  "sold": 1553
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[에이블] 남녀공용 30수 라운드 긴팔 S ~ 2XL / 흰색 회색 기본티 / 면티",
+                "score": {
+                  "clickCount": 4,
+                  "weeklyClick": 238,
+                  "todayClick": 20,
+                  "weeklySold": 34,
+                  "msrFinalScore": 423887,
+                  "dailyClick": 56,
+                  "msrAt": 1605517200,
+                  "dailySold": 8,
+                  "hoursSold": null,
+                  "todaySold": 2
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "jcoup"
+                },
+                "review": {
+                  "average": 4.5,
+                  "textCount": 16
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/034/716610340/716610340.jpg",
+                "price": {
+                  "list": 3600,
+                  "discountRate": 8
+                }
+              },
+              {
+                "gender": "F",
+                "productId": 465611417,
+                "stockQuantity": {
+                  "sold": 98
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "여성 기모반목폴라티 FT166 긴소매",
+                "score": {
+                  "weeklyClick": 314,
+                  "todayClick": 23,
+                  "weeklySold": 9,
+                  "msrFinalScore": 374873,
+                  "dailyClick": 35,
+                  "msrAt": 1605517200,
+                  "dailySold": 2,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp40015"
+                },
+                "brand": {
+                  "id": 97447
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/141/465611417/465611417.jpg",
+                "price": {
+                  "list": 9900
+                }
+              },
+              {
+                "gender": "F",
+                "productId": 716633347,
+                "stockQuantity": {
+                  "sold": 269
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[에이블] 남녀공용 30수 라운드 긴팔 S ~ 2XL / 검정 기본티 / 면티",
+                "score": {
+                  "weeklyClick": 69,
+                  "todayClick": 7,
+                  "weeklySold": 9,
+                  "msrFinalScore": 374883,
+                  "dailyClick": 12,
+                  "msrAt": 1605517200,
+                  "dailySold": 1,
+                  "hoursSold": null,
+                  "todaySold": 2
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "jcoup"
+                },
+                "review": {
+                  "average": 4.5,
+                  "textCount": 4
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/334/716633347/716633347.jpg",
+                "price": {
+                  "list": 4100,
+                  "discountRate": 7
+                }
+              },
+              {
+                "productId": 1306174741,
+                "stockQuantity": {
+                  "sold": 26
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "헤비플란넬 루즈핏 체크 셔츠_SPYCA4TC21",
+                "score": {
+                  "weeklyClick": 60,
+                  "todayClick": 9,
+                  "weeklySold": 8,
+                  "msrFinalScore": 368589,
+                  "dailyClick": 19,
+                  "msrAt": 1605517200,
+                  "dailySold": 2,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "elandmallapi"
+                },
+                "brand": {
+                  "name": "스파오",
+                  "id": 84579
+                },
+                "categoryId": [
+                  "20010200",
+                  "10010200"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/474/1306174741/1306174741.jpg",
+                "price": {
+                  "list": 17910,
+                  "discountRate": 55
+                }
+              },
+              {
+                "productId": 525075747,
+                "stockQuantity": {
+                  "sold": 2289
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[탑텐]공용) 3pack MSB5TS3001",
+                "score": {
+                  "clickCount": 22,
+                  "weeklyClick": 177,
+                  "todayClick": 14,
+                  "weeklySold": 8,
+                  "msrFinalScore": 364806,
+                  "dailyClick": 33,
+                  "msrAt": 1605517200,
+                  "dailySold": 4,
+                  "hoursSold": 10,
+                  "todaySold": 3
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp25221"
+                },
+                "review": {
+                  "average": 4.4,
+                  "textCount": 42
+                },
+                "brand": {
+                  "name": "탑텐",
+                  "id": 69766
+                },
+                "categoryId": [
+                  "10010201",
+                  "20010201"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/574/525075747/525075747.jpg",
+                "price": {
+                  "list": 15900,
+                  "discountRate": 20
+                }
+              },
+              {
+                "gender": "F",
+                "productId": 1090590097,
+                "stockQuantity": {
+                  "sold": 62
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "시크루즈 미쏘 무지 박스 티셔츠",
+                "score": {
+                  "weeklyClick": 268,
+                  "clickCount": 3,
+                  "todayClick": 25,
+                  "weeklySold": 24,
+                  "msrFinalScore": 362302,
+                  "dailyClick": 28,
+                  "msrAt": 1596819600,
+                  "dailySold": 24,
+                  "hoursSold": null,
+                  "todaySold": 22
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "montier34"
+                },
+                "review": {
+                  "average": 3,
+                  "textCount": 1
+                },
+                "brand": {
+                  "name": "시크루즈",
+                  "id": 101882
+                },
+                "categoryId": [
+                  "10010202"
+                ],
+                "isCoupon": false,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/009/1090590097/1090590097.jpg",
+                "price": {
+                  "list": 9888,
+                  "discountRate": 65
+                }
+              }
+            ],
+            "name": "TOP",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "rhqsfi91c03",
+        "gaTitle": "20210316_rhqsfi91c03_활용도 만점 여성스러운 롱스커트_청순하면서도 페미닌한 스타일 코디",
+        "bannerAttach": null,
+        "title": "활용도 만점 여성스러운 롱스커트",
+        "subTitle": "청순하면서도 페미닌한 스타일 코디",
+        "template": "tabList",
+        "fontColor": null,
+        "themeColor": null,
+        "slideBarType": null,
+        "isMoreView": null,
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "pageUnit": null,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 6
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[레코브(LECCOVE)] 이지 니팅 롱 스커트 (택가격:10000원)",
+                "score": {
+                  "hoursSold": null,
+                  "dailyClick": 2,
+                  "weeklyClick": 10,
+                  "msrFinalScore": 12552,
+                  "msrAt": 1605459600,
+                  "todayClick": 2
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": true,
+                "productId": 1388503507,
+                "partner": {
+                  "id": "wmpp67302"
+                },
+                "categoryId": [
+                  "10010302"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/350/1388503507/1388503507.jpg",
+                "price": {
+                  "list": 14900
+                }
+              },
+              {
+                "gender": "F",
+                "isDiscount": false,
+                "type": 1,
+                "title": "벨벳 롱 플리츠 스커트(R-SK-3153)",
+                "isOfficialMall": true,
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": 22817
+                },
+                "isCoupon": false,
+                "productId": 1394386249,
+                "partner": {
+                  "id": "wf000nain"
+                },
+                "categoryId": [
+                  "10010302"
+                ],
+                "score": {
+                  "dailyClick": 1,
+                  "msrFinalScore": 6020,
+                  "msrAt": 1605459600
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/9/624/1394386249/1394386249.jpg",
+                "price": {
+                  "list": 29000
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 11
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[토마토팩토리] 벨벳 롱스커트 치마 여성 여자 롱치마 밴딩치마 슬림 h라인 편한치마 옆트임 벨벳치마 벨벳스커트 벨벳롱치마",
+                "score": {
+                  "weeklyClick": 3,
+                  "todayClick": 2,
+                  "weeklySold": 1,
+                  "msrFinalScore": 4771,
+                  "dailyClick": 2,
+                  "msrAt": 1605459600,
+                  "dailySold": 1,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "review": {
+                  "average": 5,
+                  "textCount": 1
+                },
+                "brand": {
+                  "chg_dt": 1569831642,
+                  "name": "토마토팩토리",
+                  "id": 97518,
+                  "nameText": "토마토팩토리"
+                },
+                "isCoupon": true,
+                "productId": 408208680,
+                "partner": {
+                  "id": "tomato22"
+                },
+                "categoryId": [
+                  "10010302"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/868/408208680/408208680.jpg",
+                "price": {
+                  "list": 16900
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 23
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "여성 빅사이즈 벨벳 플리츠 스커트 롱스커트 주름 롱치마",
+                "score": {
+                  "weeklyClick": 199,
+                  "clickCount": 3,
+                  "todayClick": 13,
+                  "weeklySold": 6,
+                  "msrFinalScore": 304470,
+                  "dailyClick": 27,
+                  "msrAt": 1605171600,
+                  "dailySold": 3,
+                  "hoursSold": null,
+                  "todaySold": 3
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "review": {
+                  "average": 5,
+                  "textCount": 1,
+                  "photoCount": 0
+                },
+                "brand": {
+                  "chg_dt": 1584495468,
+                  "name": "퍼스트클로",
+                  "id": 98024,
+                  "nameText": "퍼스트클로"
+                },
+                "isCoupon": false,
+                "productId": 376996948,
+                "partner": {
+                  "id": "1stclo"
+                },
+                "categoryId": [
+                  "10010302"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/8/694/376996948/376996948.jpg",
+                "price": {
+                  "list": 16900
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 539
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "[달리샵] 마벨 체크 스커트",
+                "score": {
+                  "weeklyClick": 25,
+                  "clickCount": 65,
+                  "todayClick": 4,
+                  "weeklySold": 1,
+                  "msrFinalScore": 327412,
+                  "dailyClick": 4,
+                  "naverCategoryMain": 1,
+                  "msrAt": 1605517200,
+                  "dailySold": 1,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "isOfficialMall": true,
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "review": {
+                  "average": 3.9,
+                  "textCount": 25,
+                  "photoCount": 0
+                },
+                "brand": {
+                  "chg_dt": 1615188050,
+                  "name": "달리샵",
+                  "id": 25461,
+                  "nameText": "달리샵"
+                },
+                "isCoupon": true,
+                "productId": 362934636,
+                "partner": {
+                  "id": "wmpp33894"
+                },
+                "categoryId": [
+                  "10010302"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/463/362934636/362934636.jpg",
+                "price": {
+                  "list": 16900
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 189
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "모직크로롱스커트",
+                "score": {
+                  "todayClick": 3,
+                  "msrFinalScore": 19242,
+                  "dailyClick": 12,
+                  "msrAt": 1605517200,
+                  "hoursSold": null
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "review": {
+                  "average": 3.3,
+                  "textCount": 3
+                },
+                "brand": {
+                  "id": 89107
+                },
+                "isCoupon": true,
+                "productId": 1430749671,
+                "partner": {
+                  "id": "wmpp72638"
+                },
+                "categoryId": [
+                  "10010302"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/1/967/1430749671/1430749671.jpg",
+                "price": {
+                  "list": 20900
+                }
+              }
+            ],
+            "name": "롱스커트",
+            "isMoreView": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "curation",
+      "template": "tabList",
+      "data": {
+        "curationLogicId": "nputji97g04",
+        "gaTitle": "20201215_nputji97g04_데일리 언더웨어/홈웨어",
+        "bannerAttach": null,
+        "title": "데일리 언더웨어/홈웨어",
+        "subTitle": null,
+        "template": "tabList",
+        "fontColor": null,
+        "themeColor": null,
+        "slideBarType": null,
+        "isMoreView": null,
+        "ratio": "1x1",
+        "gnb": "FASHION",
+        "lnb": "WOMEN",
+        "grid": 2,
+        "pageUnit": null,
+        "items": [
+          {
+            "includeProducts": [
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 75
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "A05레이스_11칼라 면 노와이어브라 속옷세트 면속옷 여자속옷 여성속옷",
+                "score": {
+                  "weeklyClick": 61,
+                  "todayClick": 2,
+                  "weeklySold": 3,
+                  "msrFinalScore": 267755,
+                  "dailyClick": 4,
+                  "msrAt": 1605510000,
+                  "dailySold": 1,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "review": {
+                  "average": 3.5,
+                  "textCount": 4
+                },
+                "brand": {
+                  "id": 112116
+                },
+                "isCoupon": false,
+                "productId": 1285412076,
+                "partner": {
+                  "id": "wf000mir"
+                },
+                "categoryId": [
+                  "10050300"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/207/1285412076/1285412076.jpg",
+                "price": {
+                  "list": 9900,
+                  "discountRate": 38
+                }
+              },
+              {
+                "gender": "F",
+                "stockQuantity": {
+                  "sold": 3
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "순면브라팬티 예쁜속옷브라팬티 모음 11종택",
+                "score": {
+                  "hoursSold": null,
+                  "todayClick": 4,
+                  "todaySold": 1,
+                  "msrFinalScore": 357203,
+                  "msrAt": 1605020400
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "id": null
+                },
+                "isCoupon": false,
+                "productId": 160494736,
+                "partner": {
+                  "id": "jtwoy408"
+                },
+                "categoryId": [
+                  "10050300"
+                ],
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/473/160494736/160494736.jpg",
+                "price": {
+                  "list": 9800
+                }
+              },
+              {
+                "gender": "F",
+                "isDiscount": false,
+                "type": 1,
+                "title": "[BYC] 베이직여상하 / 여성내복내의",
+                "score": {
+                  "weeklyClick": 1,
+                  "todayClick": 3,
+                  "msrFinalScore": 355829,
+                  "dailyClick": 1,
+                  "msrAt": 1605106800,
+                  "hoursSold": null,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "brand": {
+                  "chg_dt": 1521538441,
+                  "name": "비와이씨",
+                  "id": 12912,
+                  "nameText": "비와이씨"
+                },
+                "isCoupon": true,
+                "productId": 310218312,
+                "partner": {
+                  "id": "wmpp14486"
+                },
+                "categoryId": [
+                  "10050000"
+                ],
+                "stockQuantity": {
+                  "sold": 76
+                },
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/2/831/310218312/310218312.jpg",
+                "price": {
+                  "list": 17900
+                }
+              },
+              {
+                "gender": "F",
+                "productId": 893361695,
+                "stockQuantity": {
+                  "sold": 4
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "노와이어볼륨브라 (3colors) EBBRA1101S",
+                "score": {
+                  "weeklyClick": 7,
+                  "todayClick": 31,
+                  "msrFinalScore": 429128,
+                  "dailyClick": 46,
+                  "naverCategoryMain": 1,
+                  "msrAt": 1594861200,
+                  "hoursSold": null,
+                  "todaySold": 9
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "elandmallapi"
+                },
+                "brand": {
+                  "name": "에블린",
+                  "id": 52600
+                },
+                "categoryId": [
+                  "10050100"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/5/169/893361695/893361695.jpg",
+                "price": {
+                  "list": 10000,
+                  "discountRate": 75
+                }
+              },
+              {
+                "gender": "F",
+                "productId": 757093326,
+                "stockQuantity": {
+                  "sold": 358
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "네모 사각 팬티 여성드로즈 3매",
+                "score": {
+                  "weeklyClick": 127,
+                  "clickCount": 9,
+                  "todayClick": 17,
+                  "weeklySold": 21,
+                  "msrFinalScore": 417898,
+                  "dailyClick": 44,
+                  "naverCategoryMain": 1,
+                  "msrAt": 1605510000,
+                  "dailySold": 6,
+                  "hoursSold": null,
+                  "todaySold": 3
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "jtwoy408"
+                },
+                "review": {
+                  "average": 4.8,
+                  "textCount": 12
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10050200"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/6/332/757093326/757093326.jpg",
+                "price": {
+                  "list": 13900
+                }
+              },
+              {
+                "gender": "F",
+                "productId": 504967793,
+                "stockQuantity": {
+                  "sold": 59
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "M(90)-4XL(105) 파워슬림 삼각 복대팬티",
+                "score": {
+                  "weeklyClick": 2,
+                  "todayClick": 9,
+                  "weeklySold": 16,
+                  "msrFinalScore": 413560,
+                  "dailyClick": 2,
+                  "naverCategoryMain": 1,
+                  "msrAt": 1604329200,
+                  "dailySold": 16,
+                  "hoursSold": null,
+                  "todaySold": 3
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "wmpp52447"
+                },
+                "review": {
+                  "average": 3,
+                  "textCount": 2
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10050600"
+                ],
+                "isCoupon": true,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/3/779/504967793/504967793.jpg",
+                "price": {
+                  "list": 7900
+                }
+              },
+              {
+                "gender": "F",
+                "productId": 1275506367,
+                "stockQuantity": {
+                  "sold": 792
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "편한 심리스 누디 노와이어 브라탑 브라렛 골지 백리스 (택배발송만가능)",
+                "score": {
+                  "weeklyClick": 244,
+                  "todayClick": 29,
+                  "weeklySold": 10,
+                  "msrFinalScore": 408092,
+                  "dailyClick": 44,
+                  "msrAt": 1605510000,
+                  "dailySold": 4,
+                  "hoursSold": 0,
+                  "todaySold": 3
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "naver1000"
+                },
+                "review": {
+                  "average": 4.6,
+                  "textCount": 15
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10050100"
+                ],
+                "isCoupon": false,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/7/636/1275506367/1275506367.jpg",
+                "price": {
+                  "list": 5900
+                }
+              },
+              {
+                "gender": "F",
+                "productId": 144985580,
+                "stockQuantity": {
+                  "sold": 2120
+                },
+                "isDiscount": false,
+                "type": 1,
+                "title": "라이트브라 75 80 85 90 95 100 105 A B C D E F컵 빅사이즈브라까지",
+                "score": {
+                  "weeklyClick": 225,
+                  "clickCount": 3,
+                  "todayClick": 33,
+                  "weeklySold": 17,
+                  "msrFinalScore": 398528,
+                  "dailyClick": 68,
+                  "dailySold": 5,
+                  "msrAt": 1605510000,
+                  "hoursSold": 6,
+                  "todaySold": 1
+                },
+                "shipping": {
+                  "label": [
+                    "무료배송"
+                  ]
+                },
+                "partner": {
+                  "id": "nicelovenice"
+                },
+                "review": {
+                  "average": 4.3,
+                  "textCount": 24,
+                  "photoCount": 0
+                },
+                "brand": {
+                  "id": null
+                },
+                "categoryId": [
+                  "10050100"
+                ],
+                "isCoupon": false,
+                "imageUrlMain": "https://view01.wemep.co.kr/wmp-product/0/558/144985580/144985580.jpg",
+                "price": {
+                  "list": 7900
+                }
+              }
+            ],
+            "name": "언더웨어",
+            "isMoreView": true
+          }
+        ]
+      }
+    }
+  ]
+}

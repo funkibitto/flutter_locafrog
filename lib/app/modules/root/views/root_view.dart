@@ -11,14 +11,14 @@ class RootView extends GetView<RootController> {
 
   final List _pages = [
     {
-      'widget': const VideoView(),
-      'icon': FontAwesomeIcons.youtube,
-      'text': 'Video'
-    },
-    {
       'widget': ShoppingView(),
       'icon': FontAwesomeIcons.shoppingBag,
       'text': 'Shopping'
+    },
+    {
+      'widget': const VideoView(),
+      'icon': FontAwesomeIcons.youtube,
+      'text': 'Video'
     },
     {'widget': MyCarView(), 'icon': FontAwesomeIcons.car, 'text': 'MyCar'},
   ];

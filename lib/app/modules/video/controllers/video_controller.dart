@@ -4,9 +4,6 @@ import 'package:flutter_locafrog/app/data/repositories/video/video_repository.da
 import 'package:flutter_locafrog/app/data/repositories/video/video_repository_impl.dart';
 import 'package:flutter_locafrog/app/data/repositories/video/video_repository_mockup.dart';
 import 'package:get/get.dart';
-import 'package:logger/logger.dart';
-
-var logger = Logger();
 
 enum ListLoading { init, scroll, reload, done }
 
@@ -29,7 +26,7 @@ class VideoController extends GetxController {
 
   @override
   void onInit() {
-    print('VideoController init ${videoList.value.itemsLength}');
+    Get.log('VideoController init ${videoList.value.itemsLength}');
     getVideoList();
     super.onInit();
   }
@@ -54,7 +51,6 @@ class VideoController extends GetxController {
     if (isReload) {
       await initVideoList();
     }
-    print("GET VIDEO");
     await 1.delay();
 
     VideoListModel? result =

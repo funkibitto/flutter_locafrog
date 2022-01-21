@@ -1,9 +1,8 @@
+import 'package:flutter_locafrog/app/core/global_constants.dart';
 import 'package:flutter_locafrog/app/data/models/shopping/shopping_curation_model.dart';
 import 'package:flutter_locafrog/app/data/repositories/shopping/shopping_repository.dart';
 import 'package:flutter_locafrog/app/data/repositories/shopping/shopping_repository_mockup.dart';
 import 'package:get/get.dart';
-
-enum ListLoading { init, scroll, reload, done }
 
 class ShoppingController extends GetxController {
   static ShoppingController get to => Get.find();

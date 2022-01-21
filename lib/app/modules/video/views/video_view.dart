@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_locafrog/app/data/models/video/video_model.dart';
 import 'package:flutter_locafrog/app/modules/common/widgets/app_bar_widget.dart';
+import 'package:flutter_locafrog/app/modules/common/widgets/indicator_init_widget.dart';
 import 'package:flutter_locafrog/app/modules/video/controllers/video_controller.dart';
 import 'package:flutter_locafrog/app/modules/video/widgets/video_item_widget.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
@@ -67,13 +68,6 @@ class _VideoViewState extends State<VideoView> {
     );
   }
 
-  Widget _initIndicator() {
-    return const Align(
-      alignment: Alignment.center,
-      child: SpinKitFadingFour(color: Colors.white, size: 50.0),
-    );
-  }
-
   @override
   void initState() {
     controller = Get.find<VideoController>();
@@ -93,7 +87,7 @@ class _VideoViewState extends State<VideoView> {
           _body(),
           // init loading
           if (controller.loadingEuum.value == ListLoading.init) ...[
-            _initIndicator()
+            const IndicatorInitWidget()
           ],
         ],
       ),

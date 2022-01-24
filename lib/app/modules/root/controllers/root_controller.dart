@@ -23,7 +23,6 @@ class RootController extends GetxController with GetTickerProviderStateMixin {
           animationController.reverse();
           break;
         case ScrollDirection.idle:
-          animationController.forward();
           break;
       }
     }
@@ -37,7 +36,7 @@ class RootController extends GetxController with GetTickerProviderStateMixin {
       keepPage: true,
     );
     animationController = AnimationController(
-        vsync: this, duration: const Duration(milliseconds: 200))
+        vsync: this, duration: const Duration(milliseconds: 300))
       ..forward(from: 1.0);
 
     super.onInit();

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_locafrog/app/core/global_constants.dart';
 import 'package:flutter_locafrog/app/modules/common/widgets/app_bar_widget.dart';
+import 'package:flutter_locafrog/app/modules/common/painter/heart_painter.dart';
 import 'package:flutter_locafrog/app/modules/common/widgets/indicator_init_widget.dart';
 import 'package:flutter_locafrog/app/modules/shopping/widgets/shopping_banner_widget.dart';
 import 'package:get/get.dart';
@@ -62,7 +63,25 @@ class _ShoppingViewState extends State<ShoppingView> {
     return Obx(
       () => Stack(
         children: <Widget>[
-          _body(),
+          CustomPaint(
+            size: Size(
+                100,
+                (100 * 1)
+                    .toDouble()), //You can Replace [WIDTH] with your desired width for Custom Paint and height will be calculated automatically
+            painter: HeartPainter(),
+          ),
+
+          Positioned(
+            top: 100,
+            child: CustomPaint(
+              size: Size(
+                  100,
+                  (100 * 1)
+                      .toDouble()), //You can Replace [WIDTH] with your desired width for Custom Paint and height will be calculated automatically
+              painter: RPSCustomPainter2(),
+            ),
+          ),
+          // _body(),
           // init loading
           if (controller.loadingEuum.value == ListLoading.init) ...[
             const IndicatorInitWidget()

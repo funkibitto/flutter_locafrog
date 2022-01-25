@@ -11,7 +11,7 @@ class UserRepositoryImpl implements UserRepository {
   Future<UserModel?> getUser() async {
     try {
       String data = await rootBundle.loadString('assets/json/user.json');
-      UserModel res = UserModel.fromJson(json.decode(data));
+      UserModel res = UserModel.fromSnapshot(json.decode(data));
       return res;
     } on Exception catch (e) {
       logger.e(e);

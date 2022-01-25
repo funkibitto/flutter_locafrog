@@ -19,9 +19,10 @@ class SettingView extends GetView<SettingController> {
           padding: padding.add(EdgeInsets.symmetric(vertical: 10)),
           children: <Widget>[
             Obx(
-              () => controller.user.value != null
+              () => controller.user.value?.profileImageUrl != null
                   ? buildHeader(
-                      urlImage: controller.user.value!.profileImageUrl,
+                      urlImage:
+                          controller.user.value!.profileImageUrl as String,
                       name: controller.user.value!.name,
                       email: controller.user.value!.email,
                       onClicked: () => {})

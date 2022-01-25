@@ -10,7 +10,7 @@ class AuthcationMiddleware extends GetMiddleware {
   @override
   RouteSettings? redirect(String? route) {
     print('RouteSettings ======== AuthcationMiddleware');
-    if (!AuthService.to.isLoggedInValue) {
+    if (!AuthService.to.isLoggedIn) {
       return RouteSettings(name: Routes.LOGIN);
     }
   }

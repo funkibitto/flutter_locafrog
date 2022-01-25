@@ -1,13 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_locafrog/app/modules/auth/services/auth_service.dart';
-import 'package:flutter_locafrog/app/modules/splash/services/splash_service.dart';
-import 'package:flutter_locafrog/app/modules/splash/views/splash_view.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'app/modules/auth/services/auth_service.dart';
+import 'firebase_options.dart';
 import 'package:flutter_locafrog/app/routes/app_pages.dart';
 import 'package:get/get.dart';
 
-void main() {
-  WidgetsFlutterBinding.ensureInitialized;
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  ).then((value) {
+    Get.put(AuthService());
+  });
   runApp(const MyApp());
 }
 
@@ -29,12 +35,12 @@ class MyApp extends StatelessWidget {
       ),
       initialBinding: BindingsBuilder(
         () {
-          Get.put(AuthService());
+          // Get.put(AuthService());
           // Get.put(SplashService());
         },
       ),
       title: "Application",
-      initialRoute: AppPages.INITIAL,
+      initialRoute: AuthService.to.isLoggedIn ? AppPages.INITIAL : Routes.LOGIN,
       getPages: AppPages.routes,
       // builder: (context, child) {
       //   return FutureBuilder<void>(

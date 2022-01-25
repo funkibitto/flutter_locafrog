@@ -81,7 +81,7 @@ class _VideoViewState extends State<VideoView> {
             Get.toNamed('/login');
           },
         ),
-        if (AuthService.to.isLoggedIn.isTrue) ...[
+        if (AuthService.to.isLoggedIn) ...[
           IconButton(
             icon: const Icon(Icons.person),
             onPressed: () {

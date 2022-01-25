@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_locafrog/app/core/global_constants.dart';
+import 'package:flutter_locafrog/app/constants/global_constants.dart';
 import 'package:flutter_locafrog/app/data/models/video/video_list_model.dart';
 import 'package:flutter_locafrog/app/data/repositories/video/video_repository.dart';
 import 'package:flutter_locafrog/app/services/http_service.dart';

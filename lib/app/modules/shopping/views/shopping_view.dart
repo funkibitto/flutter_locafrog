@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_locafrog/app/core/global_constants.dart';
+import 'package:flutter_locafrog/app/constants/global_constants.dart';
 import 'package:flutter_locafrog/app/modules/common/widgets/app_bar_widget.dart';
 import 'package:flutter_locafrog/app/modules/common/painter/heart_painter.dart';
 import 'package:flutter_locafrog/app/modules/common/widgets/indicator_init_widget.dart';

@@ -1,4 +1,4 @@
-import 'package:flutter_locafrog/app/core/global_constants.dart';
+import 'package:flutter_locafrog/app/constants/global_constants.dart';
 import 'package:flutter_locafrog/app/data/models/shopping/shopping_curation_model.dart';
 import 'package:flutter_locafrog/app/data/repositories/shopping/shopping_repository.dart';
 import 'package:flutter_locafrog/app/data/repositories/shopping/shopping_repository_mockup.dart';

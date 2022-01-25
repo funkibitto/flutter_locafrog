@@ -1,36 +1,22 @@
-// To parse this JSON data, do
-//
-//     final userModel = userModelFromJson(jsonString);
-import 'dart:convert';
-
-UserModel userModelFromJson(String str) => UserModel.fromJson(json.decode(str));
-
-String userModelToJson(UserModel data) => json.encode(data.toJson());
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class UserModel {
-  UserModel({
-    required this.id,
-    required this.name,
-    required this.profileImageUrl,
-    required this.email,
-  });
+  UserModel(
+      {required this.id,
+      required this.name,
+      required this.email,
+      this.profileImageUrl});
 
-  String id;
-  String name;
-  String profileImageUrl;
-  String email;
+  late String id;
+  late String name;
+  late String email;
+  String? profileImageUrl;
 
-  factory UserModel.fromJson(Map<String, dynamic> json) => UserModel(
-        id: json["id"],
-        name: json["name"],
-        profileImageUrl: json["profile_image_url"],
-        email: json["email"],
-      );
-
-  Map<String, dynamic> toJson() => {
-        "id": id,
-        "name": name,
-        "profile_image_url": profileImageUrl,
-        "email": email,
-      };
+  UserModel.fromSnapshot(DocumentSnapshot snapshot) {
+    final _snapshotData = snapshot.data() as Map;
+    name = _snapshotData["name"];
+    email = _snapshotData["email"];
+    profileImageUrl = _snapshotData["_snapshotData"];
+    id = _snapshotData["id"];
+  }
 }

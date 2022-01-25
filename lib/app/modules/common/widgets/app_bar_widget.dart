@@ -39,10 +39,15 @@ class AppBarWidget extends StatelessWidget {
             color: Colors.black,
           ),
           onPressed: () {
-            Get.toNamed('/login');
           },
         ),
-        if (AuthService.to.isLoggedIn.isTrue) ...[
+        if (AuthService.to.isLoggedIn) ...[
+          IconButton(
+            icon: const Icon(Icons.login_outlined, color: Colors.black),
+            onPressed: () {
+            },
+          ),
+      
           IconButton(
             icon: const Icon(Icons.person, color: Colors.black),
             onPressed: () {

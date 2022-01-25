@@ -13,11 +13,10 @@ class LoginView extends GetView<LoginController> {
         centerTitle: true,
       ),
       body: Center(
-        child: Text(
-          'LoginView is working',
-          style: TextStyle(fontSize: 20),
-        ),
-      ),
+          child: ElevatedButton(
+        child: Text('구글 로그인'),
+        onPressed: () => controller.signInWithGoogle(),
+      )),
     );
   }
 }

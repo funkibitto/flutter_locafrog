@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'app/modules/auth/services/auth_service.dart';
 import 'firebase_options.dart';
 import 'package:flutter_locafrog/app/routes/app_pages.dart';
@@ -8,6 +9,9 @@ import 'package:get/get.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  // for environment variable
+  await dotenv.load(fileName: ".env");
 
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
@@ -35,7 +39,6 @@ class MyApp extends StatelessWidget {
       ),
       initialBinding: BindingsBuilder(
         () {
-          // Get.put(AuthService());
           // Get.put(SplashService());
         },
       ),

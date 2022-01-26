@@ -5,13 +5,11 @@ import 'package:flutter_locafrog/app/data/repositories/shopping/shopping_reposit
 
 class ShoppingRepositoryMockup implements ShoppingRepository {
   @override
-  Future<ShoppingCurationModel?> getShoppingCuration() async {
+  Future<List<ShoppingCurationModel>?> getShoppingCuration() async {
     try {
       String data =
           await rootBundle.loadString('assets/json/shopping_curation.json');
-      ShoppingCurationModel res =
-          ShoppingCurationModel.fromJson(json.decode(data));
-      return res;
+      return shoppingCurationModelFromJson(json.decode(data)["section"]);
     } on Exception catch (e) {
       rethrow;
     }

@@ -15,9 +15,7 @@ void main() async {
 
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
-  ).then((value) {
-    Get.put(AuthService());
-  });
+  );
   runApp(const MyApp());
 }
 
@@ -39,11 +37,12 @@ class MyApp extends StatelessWidget {
       ),
       initialBinding: BindingsBuilder(
         () {
+          Get.put(AuthService());
           // Get.put(SplashService());
         },
       ),
       title: "Application",
-      initialRoute: AuthService.to.isLoggedIn ? AppPages.INITIAL : Routes.LOGIN,
+      initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
       // builder: (context, child) {
       //   return FutureBuilder<void>(

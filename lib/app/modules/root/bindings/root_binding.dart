@@ -1,3 +1,4 @@
+import 'package:flutter_locafrog/app/modules/home/controllers/home_controller.dart';
 import 'package:flutter_locafrog/app/modules/my_car/controllers/my_car_controller.dart';
 import 'package:flutter_locafrog/app/modules/shopping/controllers/shopping_controller.dart';
 import 'package:flutter_locafrog/app/modules/video/controllers/video_controller.dart';
@@ -10,6 +11,9 @@ class RootBinding extends Bindings {
   void dependencies() {
     Get.lazyPut<RootController>(
       () => RootController(),
+    );
+    Get.lazyPut<HomeController>(
+      () => HomeController(),
     );
     Get.lazyPut<VideoController>(
       () => VideoController(),

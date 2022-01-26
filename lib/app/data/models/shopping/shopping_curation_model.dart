@@ -4,14 +4,6 @@
 
 import 'dart:convert';
 
-enum Lnb { WOMEN }
-
-final lnbValues = EnumValues({"WOMEN": Lnb.WOMEN});
-
-enum Ratio { THE_1_X1 }
-
-final ratioValues = EnumValues({"1x1": Ratio.THE_1_X1});
-
 enum Template { TAB_LIST, IMAGE }
 
 final templateValues =
@@ -22,51 +14,30 @@ enum SectionType { BANNER, CURATION }
 final sectionTypeValues = EnumValues(
     {"banner": SectionType.BANNER, "curation": SectionType.CURATION});
 
-ShoppingCurationModel shoppingCurationModelFromMap(String str) =>
-    ShoppingCurationModel.fromJson(json.decode(str));
-
-String shoppingCurationModelToMap(ShoppingCurationModel data) =>
-    json.encode(data.toJson());
+List<ShoppingCurationModel> shoppingCurationModelFromJson(String str) => List<ShoppingCurationModel>.from(json.decode(str).map((x) => ShoppingCurationModel.fromJson(x)));
 
 class ShoppingCurationModel {
   ShoppingCurationModel({
-    required this.section,
+    required this.type,
+    required this.template,
+    required this.data,
   });
 
-  late List<Section> section;
+  final String type;
+  final String template;
+  final Data data;
 
   factory ShoppingCurationModel.fromJson(Map<String, dynamic> json) =>
       ShoppingCurationModel(
-        section:
-            List<Section>.from(json["section"].map((x) => Section.fromJson(x))),
-      );
-
-  Map<String, dynamic> toJson() => {
-        "section": List<dynamic>.from(section.map((x) => x.toJson())),
-      };
-}
-
-class Section {
-  Section({
-    this.type,
-    this.template,
-    this.data,
-  });
-
-  final SectionType? type;
-  final Template? template;
-  final Data? data;
-
-  factory Section.fromJson(Map<String, dynamic> json) => Section(
-        type: sectionTypeValues.map[json["type"]],
-        template: templateValues.map[json["template"]],
+        type: json["type"],
+        template: json["template"],
         data: Data.fromJson(json["data"]),
       );
 
   Map<String, dynamic> toJson() => {
-        "type": sectionTypeValues.reverse[type],
-        "template": templateValues.reverse[template],
-        "data": data?.toJson(),
+        "type": type,
+        "template": template,
+        "data": data.toJson(),
       };
 }
 
@@ -83,9 +54,7 @@ class Data {
     this.title,
     this.subTitle,
     this.template,
-    this.ratio,
     this.gnb,
-    this.lnb,
     this.grid,
     this.items,
     this.bannerAttach,
@@ -107,9 +76,7 @@ class Data {
   final String? title;
   final String? subTitle;
   final Template? template;
-  final Ratio? ratio;
   final Gnb? gnb;
-  final Lnb? lnb;
   final int? grid;
   final List<Item>? items;
   final dynamic bannerAttach;
@@ -122,26 +89,16 @@ class Data {
   factory Data.fromJson(Map<String, dynamic> json) => Data(
         webviewType: json["webviewType"],
         bannerId: json["bannerId"],
-        gaTitle: json["gaTitle"],
-        destination: json["destination"],
-        attach: json["attach"] == null ? null : Attach.fromJson(json["attach"]),
-        sectionType: json["sectionType"] == null
-            ? null
-            : templateValues.map[json["sectionType"]],
+        attach: json["attach"] ?? Attach.fromJson(json["attach"]),
+        sectionType:
+            json["sectionType"] ?? templateValues.map[json["sectionType"]],
         sortHint: json["sortHint"],
         curationLogicId: json["curationLogicId"],
         title: json["title"],
         subTitle: json["subTitle"],
-        template: json["template"] == null
-            ? null
-            : templateValues.map[json["template"]],
-        ratio: json["ratio"] == null ? null : ratioValues.map[json["ratio"]],
-        gnb: json["gnb"] == null ? null : gnbValues.map[json["gnb"]],
-        lnb: json["lnb"] == null ? null : lnbValues.map[json["lnb"]],
-        grid: json["grid"] == null ? null : json["grid"],
-        items: json["items"] == null
-            ? null
-            : List<Item>.from(json["items"].map((x) => Item.fromJson(x))),
+        template: json["template"] ?? templateValues.map[json["template"]],
+        items: json["items"] ??
+            List<Item>.from(json["items"].map((x) => Item.fromJson(x))),
         bannerAttach: json["bannerAttach"],
         fontColor: json["fontColor"],
         themeColor: json["themeColor"],
@@ -153,19 +110,13 @@ class Data {
   Map<String, dynamic> toJson() => {
         "webviewType": webviewType,
         "bannerId": bannerId,
-        "gaTitle": gaTitle,
-        "destination": destination,
         "attach": attach ?? attach?.toJson(),
-        "sectionType":
-            sectionType == null ? null : templateValues.reverse[sectionType],
+        "sectionType": sectionType ?? templateValues.reverse[sectionType],
         "sortHint": sortHint,
         "curationLogicId": curationLogicId,
         "title": title,
         "subTitle": subTitle,
         "template": template ?? templateValues.reverse[template],
-        "ratio": ratio ?? ratioValues.reverse[ratio],
-        "gnb": gnb ?? gnbValues.reverse[gnb],
-        "lnb": lnb ?? lnbValues.reverse[lnb],
         "grid": grid ?? grid,
         "items": items ?? List<dynamic>.from(items!.map((x) => x.toJson())),
         "bannerAttach": bannerAttach,

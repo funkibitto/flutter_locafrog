@@ -6,10 +6,8 @@ import 'package:get/get.dart';
 
 class ShoppingController extends GetxController {
   static ShoppingController get to => Get.find();
-
   late ShoppingRepository _shoppingRepository;
-
-  Rx<ShoppingCurationModel> curations = ShoppingCurationModel(section: []).obs;
+  List<ShoppingCurationModel> curations = <ShoppingCurationModel>[].obs;
   Rx<ListLoading> loadingEuum = Rx<ListLoading>(ListLoading.init);
 
   @override
@@ -29,10 +27,7 @@ class ShoppingController extends GetxController {
 
     //For mockup test
     await 2.delay();
-
-    curations.update((val) {
-      val?.section = [];
-    });
+    curations.clear();
   }
 
   Future<void> getCuration({bool isReload = false}) async {
@@ -40,14 +35,10 @@ class ShoppingController extends GetxController {
       await initVideoList();
     }
     await 1.delay();
-
-    ShoppingCurationModel? result =
-        await _shoppingRepository.getShoppingCuration();
+    final result = await _shoppingRepository.getShoppingCuration();
 
     if (result != null) {
-      curations.update((val) {
-        val?.section.addAll(result.section);
-      });
+      curations.addAll(result);
 
       // loading scroll
       loadingEuum.value = ListLoading.scroll;

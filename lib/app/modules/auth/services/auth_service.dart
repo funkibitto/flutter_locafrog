@@ -21,6 +21,8 @@ class AuthService extends GetxService {
   TextEditingController email = TextEditingController();
   TextEditingController password = TextEditingController();
 
+  bool get isLoggedIn => firebaseUser.value == null ? false : true;
+
   @override
   void onInit() {
     super.onInit();
@@ -33,16 +35,16 @@ class AuthService extends GetxService {
   void onReady() {
     super.onReady();
     print('AuthService onReady');
-    ever(firebaseUser, _setInitialView);
+    // ever(firebaseUser, _setInitialView);
   }
 
-  _setInitialView(User? user) {
-    if (user == null) {
-      Get.offAll(() => LoginView());
-    } else {
-      Get.offAll(() => RootView());
-    }
-  }
+  // _setInitialView(User? user) {
+  //   if (user == null) {
+  //     Get.offAll(() => LoginView());
+  //   } else {
+  //     Get.offAll(() => RootView());
+  //   }
+  // }
 
   void signIn() async {
     try {
@@ -105,6 +107,4 @@ class AuthService extends GetxService {
     email.clear();
     password.clear();
   }
-
-  bool get isLoggedIn => firebaseUser.value == null ? false : true;
 }

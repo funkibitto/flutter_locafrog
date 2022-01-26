@@ -39,10 +39,10 @@ class _ShoppingViewState extends State<ShoppingView> {
     return SliverList(
       delegate: SliverChildBuilderDelegate(
         (context, index) {
-          List _items = controller.curations.value.section;
+          List _items = controller.curations;
           return ShoppingBannerWidget();
         },
-        childCount: controller.curations.value.section.length,
+        childCount: controller.curations.length,
       ),
     );
   }

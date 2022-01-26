@@ -6,6 +6,7 @@ abstract class Routes {
   static const ROOT = _Paths.ROOT;
   static const LOGIN = _Paths.LOGIN;
   static const SETTING = _Paths.SETTING;
+  static const SECEOND = _Paths.SECEOND;
 }
 
 abstract class _Paths {
@@ -13,4 +14,5 @@ abstract class _Paths {
   static const ROOT = '/root';
   static const LOGIN = '/login';
   static const SETTING = '/setting';
+  static const SECEOND = '/seceond';
 }

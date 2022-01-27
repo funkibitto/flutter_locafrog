@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_locafrog/app/constants/global_constants.dart';
 import 'package:flutter_locafrog/app/data/models/video/video_model.dart';
 import 'package:flutter_locafrog/app/modules/auth/services/auth_service.dart';
 import 'package:flutter_locafrog/app/modules/video/controllers/video_controller.dart';

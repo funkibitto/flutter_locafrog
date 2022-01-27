@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_locafrog/app/constants/global_constants.dart';
 import 'package:flutter_locafrog/app/data/models/video/video_list_model.dart';
 import 'package:flutter_locafrog/app/data/repositories/video/video_repository.dart';
 import 'package:flutter_locafrog/app/data/repositories/video/video_repository_impl.dart';
 import 'package:flutter_locafrog/app/data/repositories/video/video_repository_mockup.dart';
+import 'package:flutter_locafrog/app/helpers/utils.dart';
 import 'package:get/get.dart';
-
-enum ListLoading { init, scroll, reload, done }
 
 class VideoController extends GetxController {
   static VideoController get to => Get.find();
 
   // states
   Rx<VideoListModel> videoList = VideoListModel(items: []).obs;
-  Rx<ListLoading> loadingEuum = Rx<ListLoading>(ListLoading.init);
+  Rx<ListLoading> loadingEuum = Rx<ListLoading>(ListLoading.done);
   RxBool isScrolling = false.obs;
 
   late VideoRepository _videoRepository;
@@ -26,15 +26,25 @@ class VideoController extends GetxController {
 
   @override
   void onInit() {
-    Get.log('VideoController init ${videoList.value.itemsLength}');
-    getVideoList();
     super.onInit();
+  }
+
+  @override
+  void onReady() async {
+    initVideoList();
+    super.onReady();
   }
 
   @override
   void onClose() {}
 
-  Future<void> initVideoList() async {
+  void initVideoList() async {
+    Utils.showOverlayLoading();
+    await getVideoList();
+    Utils.hideOverLoading();
+  }
+
+  Future<void> reloadVideoList() async {
     // loading reload
     loadingEuum.value = ListLoading.reload;
 
@@ -49,7 +59,7 @@ class VideoController extends GetxController {
 
   Future<void> getVideoList({bool isReload = false}) async {
     if (isReload) {
-      await initVideoList();
+      await reloadVideoList();
     }
     await 1.delay();
 

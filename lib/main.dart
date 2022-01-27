@@ -29,7 +29,6 @@ class MyApp extends StatelessWidget {
       DeviceOrientation.portraitUp,
       DeviceOrientation.portraitDown,
     ]);
-
     return GetMaterialApp(
       theme: ThemeData(
         primaryColor: Colors.white,

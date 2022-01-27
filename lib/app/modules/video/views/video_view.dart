@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_locafrog/app/constants/global_constants.dart';
 import 'package:flutter_locafrog/app/data/models/video/video_model.dart';
 import 'package:flutter_locafrog/app/modules/common/widgets/app_bar_widget.dart';
 import 'package:flutter_locafrog/app/modules/common/widgets/indicator_init_widget.dart';
@@ -45,27 +46,27 @@ class _VideoViewState extends State<VideoView> {
   }
 
   Widget _body() {
-    return RefreshIndicator(
-      onRefresh: () async => {
-        if (controller.loadingEuum.value != ListLoading.reload)
-          {await controller.getVideoList(isReload: true)}
-      },
-      edgeOffset: 100.0,
-      child: CustomScrollView(
-        key: const PageStorageKey('VideoList'),
-        primary: true,
-        physics: const BouncingScrollPhysics(
-          parent: AlwaysScrollableScrollPhysics(),
-        ),
-        slivers: [
-          const AppBarWidget(),
-          _list(),
-          if (controller.loadingEuum.value == ListLoading.scroll) ...[
-            _infinityIndicator()
-          ],
-        ],
-      ),
-    );
+    return Obx(() => RefreshIndicator(
+          onRefresh: () async => {
+            if (controller.loadingEuum.value != ListLoading.reload)
+              {await controller.getVideoList(isReload: true)}
+          },
+          edgeOffset: 100.0,
+          child: CustomScrollView(
+            key: const PageStorageKey('VideoList'),
+            primary: true,
+            physics: const BouncingScrollPhysics(
+              parent: AlwaysScrollableScrollPhysics(),
+            ),
+            slivers: [
+              const AppBarWidget(),
+              _list(),
+              if (controller.loadingEuum.value == ListLoading.scroll) ...[
+                _infinityIndicator()
+              ],
+            ],
+          ),
+        ));
   }
 
   @override
@@ -81,16 +82,6 @@ class _VideoViewState extends State<VideoView> {
 
   @override
   Widget build(BuildContext context) {
-    return Obx(
-      () => Stack(
-        children: <Widget>[
-          _body(),
-          // init loading
-          if (controller.loadingEuum.value == ListLoading.init) ...[
-            const IndicatorInitWidget()
-          ],
-        ],
-      ),
-    );
+    return _body();
   }
 }

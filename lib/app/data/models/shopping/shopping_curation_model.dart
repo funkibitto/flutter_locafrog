@@ -14,7 +14,10 @@ enum SectionType { BANNER, CURATION }
 final sectionTypeValues = EnumValues(
     {"banner": SectionType.BANNER, "curation": SectionType.CURATION});
 
-List<ShoppingCurationModel> shoppingCurationModelFromJson(String str) => List<ShoppingCurationModel>.from(json.decode(str).map((x) => ShoppingCurationModel.fromJson(x)));
+List<ShoppingCurationModel> shoppingCurationModelFromJson(
+        List<dynamic> _list) =>
+    List<ShoppingCurationModel>.from(
+        _list.map((x) => ShoppingCurationModel.fromJson(x)));
 
 class ShoppingCurationModel {
   ShoppingCurationModel({
@@ -89,16 +92,19 @@ class Data {
   factory Data.fromJson(Map<String, dynamic> json) => Data(
         webviewType: json["webviewType"],
         bannerId: json["bannerId"],
-        attach: json["attach"] ?? Attach.fromJson(json["attach"]),
-        sectionType:
-            json["sectionType"] ?? templateValues.map[json["sectionType"]],
-        sortHint: json["sortHint"],
+        attach: json["attach"] == null ? null : Attach.fromJson(json["attach"]),
+        sectionType: json["sectionType"] == null
+            ? null
+            : templateValues.map[json["sectionType"]],
         curationLogicId: json["curationLogicId"],
         title: json["title"],
         subTitle: json["subTitle"],
-        template: json["template"] ?? templateValues.map[json["template"]],
-        items: json["items"] ??
-            List<Item>.from(json["items"].map((x) => Item.fromJson(x))),
+        template: json["template"] == null
+            ? null
+            : templateValues.map[json["template"]],
+        items: json["items"] == null
+            ? null
+            : List<Item>.from(json["items"].map((x) => Item.fromJson(x))),
         bannerAttach: json["bannerAttach"],
         fontColor: json["fontColor"],
         themeColor: json["themeColor"],
@@ -112,12 +118,10 @@ class Data {
         "bannerId": bannerId,
         "attach": attach ?? attach?.toJson(),
         "sectionType": sectionType ?? templateValues.reverse[sectionType],
-        "sortHint": sortHint,
         "curationLogicId": curationLogicId,
         "title": title,
         "subTitle": subTitle,
-        "template": template ?? templateValues.reverse[template],
-        "grid": grid ?? grid,
+        "template": template == null ? null : templateValues.reverse[template],
         "items": items ?? List<dynamic>.from(items!.map((x) => x.toJson())),
         "bannerAttach": bannerAttach,
         "fontColor": fontColor,
@@ -239,8 +243,8 @@ class IncludeProduct {
         shipping: Shipping.fromJson(json["shipping"]),
         brand: Brand.fromJson(json["brand"]),
         categoryId: List<String>.from(json["categoryId"].map((x) => x)),
-        isDiscount: json["isDiscount"] ?? json["isDiscount"],
-        isCoupon: json["isCoupon"] ?? json["isCoupon"],
+        isDiscount: json["isDiscount"],
+        isCoupon: json["isCoupon"],
         imageUrlMain: json["imageUrlMain"],
         price: Price.fromJson(json["price"]),
         review: json["review"] == null ? null : Review.fromJson(json["review"]),

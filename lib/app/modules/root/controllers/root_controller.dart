@@ -43,8 +43,14 @@ class RootController extends GetxController with GetTickerProviderStateMixin {
   }
 
   @override
+  void onReady() {
+    super.onReady();
+  }
+
+  @override
   void onClose() {
     animationController.dispose();
     pageController.dispose();
+    super.onClose();
   }
 }

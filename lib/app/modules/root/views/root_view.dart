@@ -40,8 +40,6 @@ class RootView extends GetView<RootController> {
         decoration: const BoxDecoration(color: Colors.white),
         child: Padding(
           padding: const EdgeInsets.only(
-            left: 10,
-            right: 10,
             top: 10,
           ),
           child: Row(

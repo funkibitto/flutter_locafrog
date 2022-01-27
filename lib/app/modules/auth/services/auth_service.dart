@@ -3,9 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_locafrog/app/data/models/user/user_model.dart';
-import 'package:flutter_locafrog/app/modules/login/views/login_view.dart';
-import 'package:flutter_locafrog/app/modules/root/views/root_view.dart';
-import 'package:flutter_locafrog/app/utils/show_loading.dart';
+import 'package:flutter_locafrog/app/helpers/utils.dart';
 import 'package:get/get.dart';
 
 class AuthService extends GetxService {
@@ -48,7 +46,7 @@ class AuthService extends GetxService {
 
   void signIn() async {
     try {
-      showLoading();
+      Utils.showOverlayLoading();
       await auth
           .signInWithEmailAndPassword(
               email: email.text.trim(), password: password.text.trim())
@@ -66,7 +64,7 @@ class AuthService extends GetxService {
   }
 
   void signUp() async {
-    showLoading();
+    Utils.showOverlayLoading();
     try {
       await auth
           .createUserWithEmailAndPassword(
